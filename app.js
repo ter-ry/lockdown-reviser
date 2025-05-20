@@ -29,10 +29,14 @@ function showQuestion() {
   }
 
   const qText = document.createElement("p");
-  qText.innerText = current.question;
+  qText.innerHTML = current.question.replace(/\n/g, " ");
+  qText.className = "question";
   quiz.appendChild(qText);
 
   for (let key in current.options) {
+    const wrapper = document.createElement("div");
+    wrapper.className = "option";
+
     const label = document.createElement("label");
     const radio = document.createElement("input");
     radio.type = "radio";
@@ -54,7 +58,9 @@ function showQuestion() {
     };
     label.appendChild(radio);
     label.appendChild(document.createTextNode(` ${key}. ${current.options[key]}`));
-    quiz.appendChild(label);
+
+    wrapper.appendChild(label);
+    quiz.appendChild(wrapper);
   }
 }
 
