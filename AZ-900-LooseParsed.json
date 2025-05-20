@@ -1,0 +1,1802 @@
+[
+  {
+    "raw_question": "Question #1 Topic 1\nDRAG DROP -\nYour company intends to subscribe to an Azure support plan.\nThe support plan must allow for new support requests to be opened.\nWhich of the following are support plans that will allow this? Answer by dragging the correct option from the list to the answer area.\nSelect and Place:",
+    "correct_answer": "R"
+  },
+  {
+    "raw_question": "Question #2 Topic 1\nYour company has datacenters in Los Angeles and New York. The company has a Microsoft Azure subscription.\nYou are con\u0000guring the two datacenters as geo-clustered sites for site resiliency.\nYou need to recommend an Azure storage redundancy option.\nYou have the following data storage requirements:\n Data must be stored on multiple nodes.\n Data must be stored on nodes in separate geographic locations.\n Data can be read from the secondary location as well as from the primary location\nWhich of the following Azure stored redundancy options should you recommend?\nA. Geo-redundant storage\nB. Read-only geo-redundant storage\nC. Zone-redundant storage\nD. Locally redundant storage",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #3 Topic 1\nNote: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result.\nEstablish if the solution satis\u0000es the requirements.\nYour company's Azure subscription includes a Basic support plan.\nThey would like to request an assessment of an Azure environment's design from Microsoft. This is, however, not supported by the existing\nplan.\nYou want to make sure that the company subscribes to a support plan that allows this functionality, while keeping expenses to a minimum.\nSolution: You recommend that the company subscribes to the Professional Direct support plan.\nDoes the solution meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #4 Topic 1\nNote: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result.\nEstablish if the solution satis\u0000es the requirements.\nYou are tasked with deploying Azure virtual machines for your company.\nYou need to make use of the appropriate cloud deployment solution.\nSolution: You should make use of Software as a Service (SaaS).\nDoes the solution meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #5 Topic 1\nNote: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result.\nEstablish if the solution satis\u0000es the requirements.\nYou are tasked with deploying Azure virtual machines for your company.\nYou need to make use of the appropriate cloud deployment solution.\nSolution: You should make use of Platform as a Service (PaaS).\nDoes the solution meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #6 Topic 1\nNote: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result.\nEstablish if the solution satis\u0000es the requirements.\nYou are tasked with deploying Azure virtual machines for your company.\nYou need to make use of the appropriate cloud deployment solution.\nSolution: You should make use of Infrastructure as a Service (IaaS).\nDoes the solution meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #7 Topic 1\nYour developers have created 10 web applications that must be host on Azure.\nYou need to determine which Azure web tier plan to host the web apps. The web tier plan must meet the following requirements:\n The web apps will use custom domains.\n The web apps each require 10 GB of storage.\n The web apps must each run in dedicated compute instances.\n Load balancing between instances must be included.\n Costs must be minimized.\nWhich web tier plan should you use?\nA. Standard\nB. Basic\nC. Free\nD. Shared",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #8 Topic 1\nNote: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result.\nEstablish if the solution satis\u0000es the requirements.\nYou are planning to migrate a company to Azure. Each of the company's numerous divisions will have an administrator in place to manage the\nAzure resources used by their respective division.\nYou want to make sure that the Azure deployment you employ allows for Azure to be segmented for the divisions, while keeping\nadministrative effort to a minimum.\nSolution: You plan to make use of several Azure Active Directory (Azure AD) directories.\nDoes the solution meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #9 Topic 1\nYour developers have created a portal web app for users in the Miami branch o\u0000ce. The web app will be publicly accessible and used by the\nMiami users to retrieve customer and product information. The web app is currently running in an on-premises test environment.\nYou plan to host the web app on Azure.\nYou need to determine which Azure web tier plan to host the web app. The web tier plan must meet the following requirements:\n The website will use the miami.weyland.com URL.\n The website will be deployed to two instances.\n SSL support must be included.\n The website requires 12 GB of storage.\n Costs must be minimized.\nWhich web tier plan should you use?\nA. Standard\nB. Basic\nC. Free\nD. Shared",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #10 Topic 1\nNote: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result.\nEstablish if the solution satis\u0000es the requirements.\nYour company is planning to migrate all their virtual machines to an Azure pay-as-you-go subscription. The virtual machines are currently\nhosted on the Hyper-V hosts in a data center.\nYou are required make sure that the intended Azure solution uses the correct expenditure model.\nSolution: You should recommend the use of the elastic expenditure model.\nDoes the solution meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #11 Topic 1\nNote: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result.\nEstablish if the solution satis\u0000es the requirements.\nYour company is planning to migrate all their virtual machines to an Azure pay-as-you-go subscription. The virtual machines are currently\nhosted on the Hyper-V hosts in a data center.\nYou are required make sure that the intended Azure solution uses the correct expenditure model.\nSolution: You should recommend the use of the scalable expenditure model.\nDoes the solution meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #12 Topic 1\nNote: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result.\nEstablish if the solution satis\u0000es the requirements.\nYour company is planning to migrate all their virtual machines to an Azure pay-as-you-go subscription. The virtual machines are currently\nhosted on the Hyper-V hosts in a data center.\nYou are required make sure that the intended Azure solution uses the correct expenditure model.\nSolution: You should recommend the use of the operational expenditure model.\nDoes the solution meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #13 Topic 1\nNote: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result.\nEstablish if the solution satis\u0000es the requirements.\nYou are required to deploy an Arti\u0000cial Intelligence (AI) solution in Azure.\nYou want to make sure that you are able to build, test, and deploy predictive analytics for the solution.\nSolution: You should make use of Azure Cosmos DB.\nDoes the solution meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #14 Topic 1\nNote: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result.\nEstablish if the solution satis\u0000es the requirements.\nYour company's Active Directory forest includes thousands of user accounts.\nYou have been informed that all network resources will be migrated to Azure. Thereafter, the on-premises data center will be retired.\nYou are required to employ a strategy that reduces the effect on users, once the planned migration has been completed.\nSolution: You plan to sync all the Active Directory user accounts to Azure Active Directory (Azure AD).\nDoes the solution meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #15 Topic 1\nNote: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result.\nEstablish if the solution satis\u0000es the requirements.\nYou are required to deploy an Arti\u0000cial Intelligence (AI) solution in Azure.\nYou want to make sure that you are able to build, test, and deploy predictive analytics for the solution.\nSolution: You should make use of Azure Machine Learning Studio.\nDoes the solution meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #16 Topic 1\nNote: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result.\nEstablish if the solution satis\u0000es the requirements.\nYour company's infrastructure includes a number of business units that each need a large number of various Azure resources for everyday\noperation.\nThe resources required by each business unit are identical.\nYou are required to sanction a strategy to create Azure resources automatically.\nSolution: You recommend that the Azure API Management service be included in the strategy.\nDoes the solution meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #17 Topic 1\nNote: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result.\nEstablish if the solution satis\u0000es the requirements.\nYour company's infrastructure includes a number of business units that each need a large number of various Azure resources for everyday\noperation.\nThe resources required by each business unit are identical.\nYou are required to sanction a strategy to create Azure resources automatically.\nSolution: You recommend that management groups be included in the strategy.\nDoes the solution meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #18 Topic 1\nNote: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result.\nEstablish if the solution satis\u0000es the requirements.\nYour company's infrastructure includes a number of business units that each need a large number of various Azure resources for everyday\noperation.\nThe resources required by each business unit are identical.\nYou are required to sanction a strategy to create Azure resources automatically.\nSolution: You recommend that the Azure Resource Manager templates be included in the strategy.\nDoes the solution meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #19 Topic 1\nNote: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result.\nEstablish if the solution satis\u0000es the requirements.\nYou are tasked with deploying a critical LOB application, which will be installed on a virtual machine, to Azure.\nYou are informed that the application deployment strategy should allow for a guaranteed availability of 99.99 percent. You need to make sure\nthat the strategy requires as little virtual machines and availability zones as possible.\nSolution: You include two virtual machines and one availability zone in your strategy.\nDoes the solution meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #20 Topic 1\nNote: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result.\nEstablish if the solution satis\u0000es the requirements.\nYou are tasked with deploying a critical LOB application, which will be installed on a virtual machine, to Azure.\nYou are informed that the application deployment strategy should allow for a guaranteed availability of 99.99 percent. You need to make sure\nthat the strategy requires as little virtual machines and availability zones as possible.\nSolution: You include one virtual machine and two availability zones in your strategy.\nDoes the solution meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #21 Topic 1\nNote: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result.\nEstablish if the solution satis\u0000es the requirements.\nYou are tasked with deploying a critical LOB application, which will be installed on a virtual machine, to Azure.\nYou are informed that the application deployment strategy should allow for a guaranteed availability of 99.99 percent. You need to make sure\nthat the strategy requires as little virtual machines and availability zones as possible.\nSolution: You include two virtual machines and two availability zones in your strategy.\nDoes the solution meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #22 Topic 1\nNote: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result.\nEstablish if the solution satis\u0000es the requirements.\nYour company's developers intend to deploy a large number of custom virtual machines on a weekly basis. They will also be removing these\nvirtual machines during the same week it was deployed. Sixty percent of the virtual machines have Windows Server 2016 installed, while the\nother forty percent has Ubuntu Linux installed.\nYou are required to make sure that the administrative effort, needed for this process, is reduced by employing a suitable Azure service.\nSolution: You recommend the use of Microsoft Managed Desktop.\nDoes the solution meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #23 Topic 1\nNote: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result.\nEstablish if the solution satis\u0000es the requirements.\nYour company's developers intend to deploy a large number of custom virtual machines on a weekly basis. They will also be removing these\nvirtual machines during the same week it was deployed. Sixty percent of the virtual machines have Windows Server 2016 installed, while the\nother forty percent has Ubuntu Linux installed.\nYou are required to make sure that the administrative effort, needed for this process, is reduced by employing a suitable Azure service.\nSolution: You recommend the use of Azure Reserved Virtual Machines (VM) Instances.\nDoes the solution meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #24 Topic 1\nNote: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result.\nEstablish if the solution satis\u0000es the requirements.\nYour company's developers intend to deploy a large number of custom virtual machines on a weekly basis. They will also be removing these\nvirtual machines during the same week it was deployed. Sixty percent of the virtual machines have Windows Server 2016 installed, while the\nother forty percent has Ubuntu Linux installed.\nYou are required to make sure that the administrative effort, needed for this process, is reduced by employing a suitable Azure service.\nSolution: You recommend the use of Azure DevTest Labs.\nDoes the solution meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #25 Topic 1\nYour company has virtual machines (VMs) hosted in Microsoft Azure. The VMs are located in a single Azure virtual network named VNet1.\nThe company has users that work remotely. The remote workers require access to the VMs on VNet1.\nYou need to provide access for the remote workers.\nWhat should you do?\nA. Con\u0000gure a Site-to-Site (S2S) VPN.\nB. Con\u0000gure a VNet-toVNet VPN.\nC. Con\u0000gure a Point-to-Site (P2S) VPN.\nD. Con\u0000gure DirectAccess on a Windows Server 2012 server VM.\nE. Con\u0000gure a Multi-Site VPN",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #26 Topic 1\nNote: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result.\nEstablish if the solution satis\u0000es the requirements.\nYou have been informed by your superiors of the company's intentions to automate server deployment to Azure. There is, however, some\nconcern that administrative credentials could be uncovered during this process.\nYou are required to make sure that during the deployment, the administrative credentials are encrypted using a suitable Azure solution.\nSolution: You recommend the use of Azure Information Protection.\nDoes the solution meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #27 Topic 1\nNote: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result.\nEstablish if the solution satis\u0000es the requirements.\nYou have been informed by your superiors of the company's intentions to automate server deployment to Azure. There is, however, some\nconcern that administrative credentials could be uncovered during this process.\nYou are required to make sure that during the deployment, the administrative credentials are encrypted using a suitable Azure solution.\nSolution: You recommend the use of Azure Multi-Factor Authentication (MFA).\nDoes the solution meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #28 Topic 1\nDRAG DROP -\nThe company would like to develop a cloud solution by making use of Azure Government. Azure Government can only be used by certain types\nof clients to develop cloud solutions.\nWhich of the following are the types of customers that can make use of Azure Government in this situation? Answer by dragging the correct\noption from the list to the answer area.\nSelect and Place:",
+    "correct_answer": "R"
+  },
+  {
+    "raw_question": "Question #29 Topic 1\nNote: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result.\nEstablish if the solution satis\u0000es the requirements.\nYour company has an Azure Active Directory (Azure AD) environment. Users occasionally connect to Azure AD via the Internet.\nYou have been tasked with making sure that users who connect to Azure AD via the internet from an unidenti\u0000ed IP address, are automatically\nencouraged to change passwords.\nSolution: You con\u0000gure the use of Azure AD Identity Protection.\nDoes the solution meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #30 Topic 1\nNote: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result.\nEstablish if the solution satis\u0000es the requirements.\nYour company has an Azure Active Directory (Azure AD) environment. Users occasionally connect to Azure AD via the Internet.\nYou have been tasked with making sure that users who connect to Azure AD via the internet from an unidenti\u0000ed IP address, are automatically\nencouraged to change passwords.\nSolution: You con\u0000gure the use of Azure AD Privileged Identity Management.\nDoes the solution meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #31 Topic 1\nNote: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result.\nEstablish if the solution satis\u0000es the requirements.\nYou are planning a strategy to deploy numerous web servers and database servers to Azure.\nThis strategy should allow for connection types between the web servers and database servers to be controlled.\nSolution: You include network security groups (NSGs) in your strategy.\nDoes the solution meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #32 Topic 1\nNote: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result.\nEstablish if the solution satis\u0000es the requirements.\nYou are planning a strategy to deploy numerous web servers and database servers to Azure.\nThis strategy should allow for connection types between the web servers and database servers to be controlled.\nSolution: You include a local network gateway in your strategy.\nDoes the solution meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #33 Topic 1\nNote: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result.\nEstablish if the solution satis\u0000es the requirements.\nYour company's Active Directory forest includes thousands of user accounts.\nYou have been informed that all network resources will be migrated to Azure. Thereafter, the on-premises data center will be retired.\nYou are required to employ a strategy that reduces the effect on users, once the planned migration has been completed.\nSolution: You plan to require Azure Multi-Factor Authentication (MFA).\nDoes the solution meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #34 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #35 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #36 Topic 1\nHOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:",
+    "correct_answer": "W"
+  },
+  {
+    "raw_question": "Question #37 Topic 1\nYou have an on-premises network that contains several servers.\nYou plan to migrate all the servers to Azure.\nYou need to recommend a solution to ensure that some of the servers are available if a single Azure data center goes o\u0000ine for an extended\nperiod.\nWhat should you include in the recommendation?\nA. fault tolerance\nB. elasticity\nC. scalability\nD. low latency",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #38 Topic 1\nHOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #39 Topic 1\nWhat are two characteristics of the public cloud? Each correct answer presents a complete solution.\nNOTE: Each correct selection is worth one point.\nA. dedicated hardware\nB. unsecured connections\nC. limited storage\nD. metered pricing\nE. self-service management",
+    "correct_answer": "D"
+  },
+  {
+    "raw_question": "Question #40 Topic 1\nHOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:",
+    "correct_answer": "W"
+  },
+  {
+    "raw_question": "Question #41 Topic 1\nNote: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution\nthat might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct\nsolution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review\nscreen.\nYour company plans to migrate all its data and resources to Azure.\nThe company's migration plan states that only Platform as a Service (PaaS) solutions must be used in Azure.\nYou need to deploy an Azure environment that meets the company migration plan.\nSolution: You create an Azure App Service and Azure SQL databases.\nDoes this meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #42 Topic 1\nNote: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution\nthat might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct\nsolution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review\nscreen.\nYour company plans to migrate all its data and resources to Azure.\nThe company's migration plan states that only Platform as a Service (PaaS) solutions must be used in Azure.\nYou need to deploy an Azure environment that meets the company migration plan.\nSolution: You create an Azure App Service and Azure virtual machines that have Microsoft SQL Server installed.\nDoes this meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #43 Topic 1\nNote: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution\nthat might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct\nsolution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review\nscreen.\nYour company plans to migrate all its data and resources to Azure.\nThe company's migration plan states that only Platform as a Service (PaaS) solutions must be used in Azure.\nYou need to deploy an Azure environment that meets the company migration plan.\nSolution: You create an Azure App Service and Azure Storage accounts.\nDoes this meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #44 Topic 1\nYour company hosts an accounting application named App1 that is used by all the customers of the company.\nApp1 has low usage during the \u0000rst three weeks of each month and very high usage during the last week of each month.\nWhich bene\u0000t of Azure Cloud Services supports cost management for this type of usage pattern?\nA. high availability\nB. high latency\nC. elasticity\nD. load balancing",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #45 Topic 1\nYou plan to migrate a web application to Azure. The web application is accessed by external users.\nYou need to recommend a cloud deployment solution to minimize the amount of administrative effort used to manage the web application.\nWhat should you include in the recommendation?\nA. Software as a Service (SaaS)\nB. Platform as a Service (PaaS)\nC. Infrastructure as a Service (IaaS)\nD. Database as a Service (DaaS)",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #46 Topic 1\nHOTSPOT -\nWhich cloud deployment solution is used for Azure virtual machines and Azure SQL databases? To answer, select the appropriate options in\nthe answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #47 Topic 1\nYou have an on-premises network that contains 100 servers.\nYou need to recommend a solution that provides additional resources to your users. The solution must minimize capital and operational\nexpenditure costs.\nWhat should you include in the recommendation?\nA. a complete migration to the public cloud\nB. an additional data center\nC. a private cloud\nD. a hybrid cloud",
+    "correct_answer": "D"
+  },
+  {
+    "raw_question": "Question #48 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #49 Topic 1\nYou plan to migrate several servers from an on-premises network to Azure.\nWhat is an advantage of using a public cloud service for the servers over an on-premises network?\nA. The public cloud is owned by the public, NOT a private corporation\nB. The public cloud is a crowd-sourcing solution that provides corporations with the ability to enhance the cloud\nC. All public cloud resources can be freely accessed by every member of the public\nD. The public cloud is a shared entity whereby multiple corporations each use a portion of the resources in the cloud",
+    "correct_answer": "D"
+  },
+  {
+    "raw_question": "Question #50 Topic 1\nHOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #51 Topic 1\nIn which type of cloud model are all the hardware resources owned by a third-party and shared between multiple tenants?\nA. private\nB. hybrid\nC. public",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #52 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #53 Topic 1\nYou have 1,000 virtual machines hosted on the Hyper-V hosts in a data center.\nYou plan to migrate all the virtual machines to an Azure pay-as-you-go subscription.\nYou need to identify which expenditure model to use for the planned Azure solution.\nWhich expenditure model should you identify?\nA. operational\nB. elastic\nC. capital\nD. scalable",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #54 Topic 1\nDRAG DROP -\nMatch the Azure services bene\u0000ts to the correct descriptions.\nInstructions: To answer, drag the appropriate bene\u0000t from the column on the left to its description on the right. Each bene\u0000t may be used\nonce, more than once, or not at all.\nNOTE: Each correct match is worth one point.\nSelect and Place:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #55 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #56 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #57 Topic 1\nYour company has an on-premises network that contains multiple servers.\nThe company plans to reduce the following administrative responsibilities:\n Backing up application data\n Replacing failed server hardware\n Managing physical server security\n Updating server operating systems\n Managing permissions to shared documents\nThe company plans to migrate servers to Azure virtual machines.\nYou need to identify which administrative responsibilities will be eliminated after the planned migration.\nWhich two responsibilities should you identify? Each correct answer presents a complete solution.\nNOTE: Each correct selection is worth one point.\nA. Replacing failed server hardware\nB. Backing up application data\nC. Managing physical server security\nD. Updating server operating systems\nE. Managing permissions to shared documents",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #58 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "O"
+  },
+  {
+    "raw_question": "Question #59 Topic 1\nYou plan to provision Infrastructure as a Service (IaaS) resources in Azure.\nWhich resource is an example of IaaS?\nA. an Azure web app\nB. an Azure virtual machine\nC. an Azure logic app\nD. an Azure SQL database",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #60 Topic 1\nTo which cloud models can you deploy physical servers?\nA. private cloud and hybrid cloud only\nB. private cloud only\nC. private cloud, hybrid cloud and public cloud\nD. hybrid cloud only",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #61 Topic 1\nDRAG DROP -\nMatch the cloud model to the correct advantage.\nInstructions: To answer, drag the appropriate cloud model from the column on the left to its advantage on the right. Each cloud model may be\nused once, more than once, or not at all.\nNOTE: Each correct match is worth one point\nSelect and Place:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #62 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #63 Topic 1\nYou have 50 virtual machines hosted on-premises and 50 virtual machines hosted in Azure. The on-premises virtual machines and the Azure\nvirtual machines connect to each other.\nWhich type of cloud model is this?\nA. hybrid\nB. private\nC. public",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #64 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #65 Topic 1\nNote: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution\nthat might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct\nsolution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review\nscreen.\nYour company plans to migrate all its data and resources to Azure.\nThe company's migration plan states that only Platform as a Service (PaaS) solutions must be used in Azure.\nYou need to deploy an Azure environment that meets the company migration plan.\nSolution: You create Azure virtual machines, Azure SQL databases, and Azure Storage accounts.\nDoes this meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #66 Topic 1\nYour company plans to deploy several custom applications to Azure. The applications will provide invoicing services to the customers of the\ncompany. Each application will have several prerequisite applications and services installed.\nYou need to recommend a cloud deployment solution for all the applications.\nWhat should you recommend?\nA. Software as a Service (SaaS)\nB. Platform as a Service (PaaS)\nC. Infrastructure as a Service (laaS)",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #67 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #68 Topic 1\nHOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #69 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "R"
+  },
+  {
+    "raw_question": "Question #70 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #71 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "R"
+  },
+  {
+    "raw_question": "Question #72 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.",
+    "correct_answer": "Y"
+  },
+  {
+    "raw_question": "Question #73 Topic 1\nYour company plans to migrate all its data and resources to Azure.\nThe company's migration plan states that only Platform as a Service (PaaS) solutions must be used in Azure.\nYou need to deploy an Azure environment that meets the company's migration plan.\nWhat should you create?\nA. Azure virtual machines, Azure SQL databases, and Azure Storage accounts.\nB. an Azure App Service and Azure virtual machines that have Microsoft SQL Server installed.\nC. an Azure App Service and Azure SQL databases.\nD. Azure storage accounts and web server in Azure virtual machines.",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #74 Topic 1\nWhat does a customer provide in a software as a service (SaaS) model?\nA. application data\nB. data storage\nC. compute resources\nD. application software",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #75 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "R"
+  },
+  {
+    "raw_question": "Question #76 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "W"
+  },
+  {
+    "raw_question": "Question #77 Topic 1\nWhat is the \u0000rst stage in the Microsoft Cloud Adoption Framework for Azure?\nA. Adopt the cloud.\nB. Make a plan.\nC. Ready your organization.\nD. De\u0000ne your strategy.",
+    "correct_answer": "D"
+  },
+  {
+    "raw_question": "Question #78 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #79 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #80 Topic 1\nDRAG DROP -\nMatch the cloud computing bene\u0000ts to the correct descriptions.\nTo answer, drag the appropriate bene\u0000t from the column on the left to its description on the right. Each bene\u0000t may be used once, more than\nonce, or not at all.\nNOTE: Each correct match is worth one point.\nSelect and Place:",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #81 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:",
+    "correct_answer": "Y"
+  },
+  {
+    "raw_question": "Question #82 Topic 1\nHOTSPOT -\nYou plan to use Azure to host two apps named App1 and App2. The apps must meet the following requirements:\n You must be able to modify the code of App1.\n Administrative effort to manage the operating system of App1 must be minimized.\n App2 must run interactively with the operating system of the server.\nWhich type of cloud service should you use for each app? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #83 Topic 1\nYou have an accounting application named App1 that uses a legacy database.\nYou plan to move App1 to the cloud.\nWhich service model should you use?\nA. platform as a service (PaaS)\nB. infrastructure as a service (IaaS)\nC. software as a service (SaaS)",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #84 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #85 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #86 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #87 Topic 1\nWhich cloud computing model includes on-premises and cloud-based resources?\nA. hybrid\nB. public\nC. private",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #88 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #89 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #90 Topic 1\nWhich term represents the ability to increase the computing capacity of a virtual machine by adding memory or CPUs?\nA. agility\nB. vertical scaling\nC. horizontal scaling\nD. elasticity",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #91 Topic 1\nWhat are two bene\u0000ts of cloud computing? Each correct answer presents a complete solution.\nNOTE: Each correct selection is worth one point.\nA. enables the rapid provisioning of resources\nB. has increased administrative complexity\nC. has the same con\u0000guration options as on-premises\nD. shifts capital expenditures (CAPEX) to operating expenditures (OPEX)",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #92 Topic 1\nWhat is a feature of an Azure virtual network?\nA. resource cost analysis\nB. packet inspection\nC. geo-redundancy\nD. isolation and segmentation",
+    "correct_answer": "D"
+  },
+  {
+    "raw_question": "Question #93 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #94 Topic 1\nDRAG DROP -\nMatch the cloud computing bene\u0000ts to the appropriate descriptions.\nTo answer, drag the appropriate bene\u0000t from the column on the left to its description on the right. Each bene\u0000t may be used once, more than\nonce, or not at all.\nNOTE: Each correct match is worth one point.\nSelect and Place:",
+    "correct_answer": "R"
+  },
+  {
+    "raw_question": "Question #95 Topic 1\nWhich cloud computing bene\u0000t provides continuous user access to a cloud-based application with minimal downtime?\nA. agility\nB. scalability\nC. elasticity\nD. high availability",
+    "correct_answer": "D"
+  },
+  {
+    "raw_question": "Question #96 Topic 1\nYou need to identify the type of failure for which an Azure Availability Zone can be used to protect access to Azure services.\nWhat should you identify?\nA. a physical server failure\nB. an Azure region failure\nC. a storage failure\nD. an Azure data center failure",
+    "correct_answer": "D"
+  },
+  {
+    "raw_question": "Question #97 Topic 1\nHOTSPOT -\nYou plan to extend your company's network to Azure.\nThe network contains a VPN appliance that uses an IP address of 131.107.200.1.\nYou need to create an Azure resource that de\u0000nes the VPN appliance in Azure.\nWhich Azure resource should you create? To answer, select the appropriate resource in the answer area.\nHot Area:",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #98 Topic 1\nNote: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution\nthat might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct\nsolution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review\nscreen.\nYou plan to deploy several Azure virtual machines.\nYou need to ensure that the services running on the virtual machines are available if a single data center fails.\nSolution: You deploy the virtual machines to two or more resource groups.\nDoes this meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #99 Topic 1\nNote: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution\nthat might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct\nsolution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review\nscreen.\nYou plan to deploy several Azure virtual machines.\nYou need to ensure that the services running on the virtual machines are available if a single data center fails.\nSolution: You deploy the virtual machines to a scale set.\nDoes this meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #100 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #101 Topic 1\nThis question requires that you evaluate the underlined text to determine if it is correct.\nResource groups provide organizations with the ability to manage the compliance of Azure resources across multiple subscriptions.\nInstructions: Review the underlined text. If it makes the statement correct, select `No change is needed`. If the statement is incorrect, select\nthe answer choice that makes the statement correct.\nA. No change is needed\nB. Management groups\nC. Azure policies\nD. Azure App Service plans",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #102 Topic 1\nYour company plans to migrate to Azure.\nThe company has several departments. All the Azure resources used by each department will be managed by a department administrator.\nWhat are two possible techniques to segment Azure for the departments? Each correct answer presents a complete solution.\nNOTE: Each correct selection is worth one point.\nA. multiple subscriptions\nB. multiple Azure Active Directory (Azure AD) directories\nC. multiple regions\nD. multiple resource groups",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #103 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #104 Topic 1\nHOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:",
+    "correct_answer": "Y"
+  },
+  {
+    "raw_question": "Question #105 Topic 1\nYou have an Azure environment that contains multiple Azure virtual machines.\nYou plan to implement a solution that enables the client computers on your on-premises network to communicate to the Azure virtual\nmachines.\nYou need to recommend which Azure resources must be created for the planned solution.\nWhich two Azure resources should you include in the recommendation? Each correct answer presents part of the solution.\nNOTE: Each correct selection is worth one point.\nA. a virtual network gateway\nB. a load balancer\nC. an application gateway\nD. a virtual network\nE. a gateway subnet",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #106 Topic 1\nYou attempt to create several managed Microsoft SQL Server instances in an Azure environment and receive a message that you must\nincrease your Azure subscription limits.\nWhat should you do to increase the limits?\nA. Create a service health alert\nB. Upgrade your support plan\nC. Modify an Azure policy\nD. Create a new support request",
+    "correct_answer": "D"
+  },
+  {
+    "raw_question": "Question #107 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #108 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #109 Topic 1\nHOTSPOT -\nYou plan to create an Azure virtual machine.\nYou need to identify which storage service must be used to store the unmanaged data disks of the virtual machine.\nWhat should you identify? To answer, select the appropriate service in the answer area.\nHot Area:",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #110 Topic 1\nYour company plans to move several servers to Azure.\nThe company's compliance policy states that a server named FinServer must be on a separate network segment.\nYou are evaluating which Azure services can be used to meet the compliance policy requirements.\nWhich Azure solution should you recommend?\nA. a resource group for FinServer and another resource group for all the other servers\nB. a virtual network for FinServer and another virtual network for all the other servers\nC. a VPN for FinServer and a virtual network gateway for each other server\nD. one resource group for all the servers and a resource lock for FinServer",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #111 Topic 1\nYou plan to map a network drive from several computers that run Windows 10 to Azure Storage.\nYou need to create a storage solution in Azure for the planned mapped drive.\nWhat should you create?\nA. an Azure SQL database\nB. a virtual machine data disk\nC. a File service in a storage account\nD. a Blob service in a storage account",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #112 Topic 1\nHOTSPOT -\nYou plan to implement an Azure database solution.\nYou need to implement a database solution that meets the following requirements:\n Can add data concurrently from multiple regions\n Can store JSON documents\nWhich database service should you deploy? To answer, select the appropriate service in the answer area.\nHot Area:",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #113 Topic 1\nYour company plans to start using Azure and will migrate all its network resources to Azure.\nYou need to start the planning process by exploring Azure.\nWhat should you create \u0000rst?\nA. a subscription\nB. a resource group\nC. a virtual network\nD. a management group",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #114 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #115 Topic 1\nHOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #116 Topic 1\nHOTSPOT -\nYou plan to deploy a critical line-of-business application to Azure.\nThe application will run on an Azure virtual machine.\nYou need to recommend a deployment solution for the application. The solution must provide a guaranteed availability of 99.99 percent.\nWhat is the minimum number of virtual machines and the minimum number of availability zones you should recommend for the deployment?\nTo answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "Y"
+  },
+  {
+    "raw_question": "Question #117 Topic 1\nWhich Azure service should you use to collect events from multiple resources into a centralized repository?\nA. Azure Event Hubs\nB. Azure Analysis Services\nC. Azure Monitor\nD. Azure Stream Analytics",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #118 Topic 1\nHOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #119 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #120 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #121 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #122 Topic 1\nNote: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution\nthat might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct\nsolution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review\nscreen.\nYou plan to deploy several Azure virtual machines.\nYou need to ensure that the services running on the virtual machines are available if a single data center fails.\nSolution: You deploy the virtual machines to two or more scale sets.\nDoes this meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #123 Topic 1\nYou need to be noti\u0000ed when Microsoft plans to perform maintenance that can affect the resources deployed to an Azure subscription.\nWhat should you use?\nA. Azure Monitor\nB. Azure Service Health\nC. Azure Advisor\nD. Microsoft Trust Center",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #124 Topic 1\nDRAG DROP -\nMatch the Azure Services service to the correct description.\nInstructions: To answer, drag the appropriate service from the column on the left to its description on the right. Each service may be used\nonce, more than once, or not at all.\nNOTE: Each correct selection is worth one point.\nSelect and Place:",
+    "correct_answer": "R"
+  },
+  {
+    "raw_question": "Question #125 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "R"
+  },
+  {
+    "raw_question": "Question #126 Topic 1\nHOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:",
+    "correct_answer": "R"
+  },
+  {
+    "raw_question": "Question #127 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #128 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #129 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.",
+    "correct_answer": "T"
+  },
+  {
+    "raw_question": "Question #130 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "R"
+  },
+  {
+    "raw_question": "Question #131 Topic 1\nYou plan to deploy several Azure virtual machines.\nYou need to ensure that the services running on the virtual machines remain available if a single data center fails.\nWhat are two possible solutions? Each correct answer presents a complete solution.\nA. Deploy the virtual machines to two or more availability zones.\nB. Deploy the virtual machines to two or more resource groups.\nC. Deploy the virtual machines to a scale set.\nD. Deploy the virtual machines to two or more regions.",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #132 Topic 1\nHOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #133 Topic 1\nDRAG DROP -\nMatch the Azure service to the appropriate description.\nTo answer, drag the appropriate service from the column on the left to its description on the right. Each service may be used once, more than\nonce, or not at all.\nNOTE: Each correct match is worth one point.\nSelect and Place:",
+    "correct_answer": "M"
+  },
+  {
+    "raw_question": "Question #134 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #135 Topic 1\nWhat is the most severe failure from which an Azure Availability Zone can be used to protect access to Azure service?\nA. a physical server failure\nB. an Azure region failure\nC. a storage failure\nD. an Azure data center failure",
+    "correct_answer": "D"
+  },
+  {
+    "raw_question": "Question #136 Topic 1\nYou need to purchase a third-party virtual security appliance that you will deploy to an Azure subscription.\nWhat should you use?\nA. Azure subscriptions\nB. Azure Security Center\nC. Azure Marketplace\nD. Microsoft Store",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #137 Topic 1\nDRAG DROP -\nMatch the serverless solution to the correct characteristic.\nTo answer, drag the appropriate serverless solution from the column on the left to its characteristic on the right. Each serverless solution may\nbe used once, more than once, or not at all.\nNOTE: Each correct match is worth one point.\nSelect and Place:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #138 Topic 1\nDRAG DROP -\nMatch the Azure governance feature to the correct description.\nInstructions: To answer, drag the appropriate feature from the column on the left to its description on the right. Each feature may be used\nonce, more than once, or not at all.\nNOTE: Each correct match is worth one point.\nSelect and Place:",
+    "correct_answer": "R"
+  },
+  {
+    "raw_question": "Question #139 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #140 Topic 1\nDRAG DROP -\nMatch the Azure services to the correct descriptions.\nInstructions: To answer, drag the appropriate Azure service from the column on the left to its description on the right. Each service may be\nused once, more than once, or not at all.\nNOTE: Each correct match is worth one point.\nSelect and Place:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #141 Topic 1\nHOTSPOT -\nTo answer, select the appropriate option in the answer area.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #142 Topic 1\nYou need to purchase a third-party virtual security appliance that you will deploy to an Azure subscription.\nWhat should you use?\nA. Azure subscriptions\nB. Microsoft Defender for Cloud\nC. Azure Marketplace\nD. Microsoft Store",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #143 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:",
+    "correct_answer": "M"
+  },
+  {
+    "raw_question": "Question #144 Topic 1\nYou plan to deploy a service to Azure virtual machines.\nYou need to ensure that the service will be available if a datacenter fails.\nWhat should you use as part of the virtual machine deployment?\nA. availability sets\nB. proximity placement groups\nC. host groups\nD. availability zones",
+    "correct_answer": "D"
+  },
+  {
+    "raw_question": "Question #145 Topic 1\nYour company has an Azure subscription that contains resources in several regions.\nYou need to ensure that administrators can only create resources in those regions.\nWhat should you use?\nA. a read-only lock\nB. an Azure policy\nC. a management group\nD. a reservation",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #146 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #147 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:",
+    "correct_answer": "T"
+  },
+  {
+    "raw_question": "Question #148 Topic 1\nWhat is the function of a Site-to-Site VPN?\nA. provides a secure connection between a computer on a public network and the corporate network\nB. provides a dedicated private connection to Azure that does NOT travel over the internet\nC. provides a connection from an on-premises VPN device to an Azure VPN gateway",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #149 Topic 1\nDRAG DROP -\nMatch the cloud service models to the appropriate offerings.\nTo answer, drag the appropriate model from the column on the left to its offering on the right. Each model may be used once, more than once,\nor not at all.\nNOTE: Each correct match is worth one point.\nSelect and Place:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #150 Topic 1\nDRAG DROP -\nMatch the cloud service models to the appropriate solutions.\nTo answer, drag the appropriate cloud service model from the column on the left to its solution on the right Each cloud service model may be\nused once, more than once, or not at all.\nNOTE: Each correct match is worth one point.\nSelect and Place:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #151 Topic 1\nYou need to manage containers.\nWhich two services can you use? Each correct answer presents a complete solution.\nNOTE: Each correct selection is worth one point.\nA. Azure Virtual Desktop\nB. Azure virtual machines\nC. Azure Functions\nD. Azure Container Instances\nE. Azure Kubernetes Service (AKS)",
+    "correct_answer": "D"
+  },
+  {
+    "raw_question": "Question #152 Topic 1\nHOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #153 Topic 1\nNote: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution\nthat might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct\nsolution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review\nscreen.\nYou plan to deploy several Azure virtual machines.\nYou need to ensure that the services running on the virtual machines are available if a single data center fails.\nSolution: You deploy the virtual machines to two or more availability zones.\nDoes this meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #154 Topic 1\nThis question requires that you evaluate the underlined text to determine if it is correct.\nOne of the bene\u0000ts of Azure SQL Data Warehouse is that high availability is built into the platform.\nInstructions: Review the underlined text. If it makes the statement correct, select `No change is needed`. If the statement is incorrect, select\nthe answer choice that makes the statement correct.\nA. No change is needed\nB. automatic scaling\nC. data compression\nD. versioning",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #155 Topic 1\nNote: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution\nthat might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct\nsolution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review\nscreen.\nYou plan to deploy several Azure virtual machines.\nYou need to ensure that the services running on the virtual machines are available if a single data center fails.\nSolution: You deploy the virtual machines to two or more regions.\nDoes this meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #156 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:",
+    "correct_answer": "T"
+  },
+  {
+    "raw_question": "Question #157 Topic 1\nAt which OSI layer does ExpressRoute operate?\nA. Layer 2\nB. Layer 3\nC. Layer 5\nD. Layer 7",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #158 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #159 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #160 Topic 1\nYou plan to store 20 TB of data in Azure. The data will be accessed infrequently and visualized by using Microsoft Power BI.\nYou need to recommend a storage solution for the data.\nWhich two solutions should you recommend? Each correct answer presents a complete solution.\nNOTE: Each correct selection is worth one point.\nA. Azure Data Lake\nB. Azure Cosmos DB\nC. Azure SQL Data Warehouse\nD. Azure SQL Database\nE. Azure Database for PostgreSQL",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #161 Topic 1\nHOTSPOT -\nYou have an Azure environment that contains 10 web apps. To which URL should you connect to manage all the Azure resources? To answer,\nselect the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "T"
+  },
+  {
+    "raw_question": "Question #162 Topic 1\nDRAG DROP -\nArrange the storage account redundancy options from the least redundant to the most redundant. To answer, move all options from the list of\noptions to the answer area and arrange them in the correct order.\nSelect and Place:",
+    "correct_answer": "L"
+  },
+  {
+    "raw_question": "Question #163 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #164 Topic 1\nNote: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution\nthat might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct\nsolution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review\nscreen.\nAn Azure administrator plans to run a PowerShell script that creates Azure resources.\nYou need to recommend which computer con\u0000guration to use to run the script.\nSolution: Run the script from a computer that runs Linux and has the Azure CLI tools installed.\nDoes this meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #165 Topic 1\nNote: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution\nthat might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct\nsolution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review\nscreen.\nAn Azure administrator plans to run a PowerShell script that creates Azure resources.\nYou need to recommend which computer con\u0000guration to use to run the script.\nSolution: Run the script from a computer that runs Chrome OS and uses Azure Cloud Shell.\nDoes this meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #166 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #167 Topic 1\nNote: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution\nthat might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct\nsolution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review\nscreen.\nAn Azure administrator plans to run a PowerShell script that creates Azure resources.\nYou need to recommend which computer con\u0000guration to use to run the script.\nSolution: Run the script from a computer that runs macOS and has PowerShell Core 6.0 installed.\nDoes this meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #168 Topic 1\nHOTSPOT -\nYou need to view a list of planned maintenance events that can affect the availability of an Azure subscription.\nWhich blade should you use from the Azure portal? To answer, select the appropriate blade in the answer area.\nHot Area:",
+    "correct_answer": "O"
+  },
+  {
+    "raw_question": "Question #169 Topic 1\nDRAG DROP -\nMatch the Azure service to the correct de\u0000nition.\nInstructions: To answer, drag the appropriate Azure service from the column on the left to its description on the right. Each service may be\nused once, more than once, or not at all.\nNOTE: Each correct match is worth one point.\nSelect and Place:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #170 Topic 1\nDRAG DROP -\nMatch the Azure service to the correct description.\nInstructions: To answer, drag the appropriate Azure service from the column on the left to its description on the right. Each service may be\nused once, more than once, or not at all.\nNOTE: Each correct match is worth one point.\nSelect and Place:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #171 Topic 1\nHOTSPOT -\nYou need to identify which blades in the Azure portal must be used to perform the following tasks:\n View security recommendations.\n Monitor the health of Azure services.\n Browse available virtual machine images.\nWhich blade should you identify for each task? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #172 Topic 1\nNote: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution\nthat might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct\nsolution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review\nscreen.\nYou have an Azure environment. You need to create a new Azure virtual machine from a tablet that runs the Android operating system.\nSolution: You use Bash in Azure Cloud Shell.\nDoes this meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #173 Topic 1\nYou have an on-premises application that sends email noti\u0000cations automatically based on a rule.\nYou plan to migrate the application to Azure.\nYou need to recommend a serverless computing solution for the application.\nWhat should you include in the recommendation?\nA. a web app\nB. a server image in Azure Marketplace\nC. a logic app\nD. an API app",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #174 Topic 1\nYou plan to deploy a website to Azure. The website will be accessed by users worldwide and will host large video \u0000les.\nYou need to recommend which Azure feature must be used to provide the best video playback experience.\nWhat should you recommend?\nA. an application gateway\nB. an Azure ExpressRoute circuit\nC. a content delivery network (CDN)\nD. an Azure Tra\u0000c Manager pro\u0000le",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #175 Topic 1\nYour company plans to deploy several million sensors that will upload data to Azure.\nYou need to identify which Azure resources must be created to support the planned solution.\nWhich two Azure resources should you identify? Each correct answer presents part of the solution.\nNOTE: Each correct selection is worth one point.\nA. Azure Data Lake\nB. Azure Queue storage\nC. Azure File Storage\nD. Azure IoT Hub\nE. Azure Noti\u0000cation Hubs",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #176 Topic 1\nYou have an Azure web app.\nYou need to manage the settings of the web app from an iPhone.\nWhat are two Azure management tools that you can use? Each correct answer presents a complete solution.\nNOTE: Each correct selection is worth one point.\nA. Azure CLI\nB. the Azure portal\nC. Azure Cloud Shell\nD. Windows PowerShell\nE. Azure Storage Explorer",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #177 Topic 1\nYour company plans to deploy an Arti\u0000cial Intelligence (AI) solution in Azure.\nWhat should the company use to build, test, and deploy predictive analytics solutions?\nA. Azure Logic Apps\nB. Azure Machine Learning Designer\nC. Azure Batch\nD. Azure Cosmos DB",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #178 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #179 Topic 1\nWhat can you use to automatically send an alert if an administrator stops an Azure virtual machine?\nA. Azure Advisor\nB. Azure Service Health\nC. Azure Monitor\nD. Azure Network Watcher",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #180 Topic 1\nDRAG DROP -\nMatch the Azure services to the correct descriptions.\nInstructions: To answer, drag the appropriate Azure service from the column on the left to its description on the right. Each service may be\nused once, more than once, or not at all.\nNOTE: Each correct match is worth one point\nSelect and Place:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #181 Topic 1\nYou have an Azure environment.\nYou need to create a new Azure virtual machine from a tablet that runs the Android operating system.\nWhat are three possible solutions? Each correct answer presents a complete solution.\nNOTE: Each correct selection is worth one point.\nA. Use Bash in Azure Cloud Shell.\nB. Use PowerShell in Azure Cloud Shell.\nC. Use the PowerApps portal.\nD. Use the Security & Compliance admin center.\nE. Use the Azure portal.",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #182 Topic 1\nA team of developers at your company plans to deploy, and then remove, 50 virtual machines each week. All the virtual machines are\ncon\u0000gured by using Azure\nResource Manager templates.\nYou need to recommend which Azure service will minimize the administrative effort required to deploy and remove the virtual machines.\nWhat should you recommend?\nA. Azure Reserved Virtual Machine (VM) Instances\nB. Azure DevTest Labs\nC. Azure virtual machine scale sets\nD. Azure Virtual Desktop",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #183 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #184 Topic 1\nNote: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution\nthat might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct\nsolution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review\nscreen.\nYou have an Azure subscription named Subscription1. You sign in to the Azure portal and create a resource group named RG1.\nFrom Azure documentation, you have the following command that creates a virtual machine named VM1. az vm create --resource-group RG1 --\nname VM1 --image UbuntuLTS --generate-ssh-keys\nYou need to create VM1 in Subscription1 by using the command.\nSolution: From the Azure portal, launch Azure Cloud Shell and select PowerShell. Run the command in Cloud Shell.\nDoes this meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #185 Topic 1\nNote: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution\nthat might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct\nsolution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review\nscreen.\nYou have an Azure subscription named Subscription1. You sign in to the Azure portal and create a resource group named RG1.\nFrom Azure documentation, you have the following command that creates a virtual machine named VM1. az vm create --resource-group RG1 --\nname VM1 --image UbuntuLTS\n--generate-ssh-keys\nYou need to create VM1 in Subscription1 by using the command.\nSolution: From a computer that runs Windows 10, install Azure CLI. From PowerShell, sign in to Azure and then run the command.\nDoes this meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #186 Topic 1\nNote: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution\nthat might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct\nsolution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review\nscreen.\nYou have an Azure subscription named Subscription1. You sign in to the Azure portal and create a resource group named RG1.\nFrom Azure documentation, you have the following command that creates a virtual machine named VM1. az vm create --resource-group RG1 --\nname VM1 --image UbuntuLTS\n--generate-ssh-keys\nYou need to create VM1 in Subscription1 by using the command.\nSolution: From a computer that runs Windows 10, install Azure CLI. From a command prompt, sign in to Azure and then run the command.\nDoes this meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #187 Topic 1\nHOTSPOT -\nSeveral support engineers plan to manage Azure by using the computers shown in the following table:\nYou need to identify which Azure management tools can be used from each computer.\nWhat should you identify for each computer? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "P"
+  },
+  {
+    "raw_question": "Question #188 Topic 1\nHOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #189 Topic 1\nHOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #190 Topic 1\nDRAG DROP -\nMatch the Azure service to the correct description.\nInstructions: To answer, drag the appropriate Azure service from the column on the left to its description on the right. Each service may be\nused once, more than once, or not at all.\nNOTE: Each correct selection is worth one point.\nSelect and Place:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #191 Topic 1\nNote: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution\nthat might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct\nsolution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review\nscreen.\nAn Azure administrator plans to run a PowerShell script that creates Azure resources.\nYou need to recommend which computer con\u0000guration to use to run the script.\nSolution: Run the script from a computer that runs Windows 10 and has the Azure PowerShell module installed.\nDoes this meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #192 Topic 1\nDRAG DROP -\nMatch the Azure services to the correct description.\nInstructions: To answer, drag the appropriate Azure service from the column on the left to its description on the right. Each service may be\nused once, more than once, or not at all.\nNOTE: Each correct selection is worth one point.\nSelect and Place:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #193 Topic 1\nWhich service provides serverless computing in Azure?\nA. Azure Virtual Machines\nB. Azure Functions\nC. Azure storage account\nD. Azure dedicated hosts",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #194 Topic 1\nAn Azure administrator plans to run a PowerShell script that creates Azure resources.\nYou need to recommend which computer con\u0000guration to use to run the script.\nWhich three computers can run the script? Each correct answer presents a complete solution.\nNOTE: Each correct selection is worth one point.\nA. a computer that runs macOS and has PowerShell Core 6.0 installed.\nB. a computer that runs Windows 10 and has the Azure PowerShell module installed.\nC. a computer that runs Linux and has the Azure PowerShell module installed.\nD. a computer that runs Linux and has the Azure CLI tools installed.\nE. a computer that runs Chrome OS and uses Azure Cloud Shell.",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #195 Topic 1\nNote: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution\nthat might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct\nsolution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review\nscreen.\nYou have an Azure subscription named Subscription1. You sign in to the Azure portal and create a resource group named RG1.\nFrom Azure documentation, you have the following command that creates a virtual machine named VM1. az vm create --resource-group RG1 --\nname VM1 --image UbuntuLTS --generate-ssh-keys\nYou need to create VM1 in Subscription1 by using the command.\nSolution: From the Azure portal, launch Azure Cloud Shell and select Bash. Run the command in Cloud Shell.\nDoes this meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #196 Topic 1\nYour company has several business units.\nEach business unit requires 20 different Azure resources for daily operation. All the business units require the same type of Azure resources.\nYou need to recommend a solution to automate the creation of the Azure resources.\nWhat should you include in the recommendations?\nA. Azure Resource Manager templates\nB. virtual machine scale sets\nC. the Azure API Management service\nD. management groups",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #197 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "R"
+  },
+  {
+    "raw_question": "Question #198 Topic 1\nWhat can you use to identify underutilized or unused Azure virtual machines?\nA. Azure Advisor\nB. Azure Cost Management + Billing\nC. Azure reservations\nD. Azure Policy",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #199 Topic 1\nHOTSPOT -\nWhich node in the Azure portal should you use to assign a user the Reader role for a resource group? To answer, select the node in the answer\narea.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #200 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #201 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #202 Topic 1\nDRAG DROP -\nMatch the Azure service to the correct de\u0000nition.\nInstructions: To answer, drag the appropriate Azure service from the column on the left to its description on the right. Each service may be\nused once, more than once, or not at all.\nNOTE: Each correct selection is worth one point.\nSelect and Place:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #203 Topic 1\nA team of developers at your company plans to deploy, and then remove, 50 customized virtual machines each week. Thirty of the virtual\nmachines run Windows\nServer 2016 and 20 of the virtual machines run Ubuntu Linux.\nYou need to recommend which Azure service will minimize the administrative effort required to deploy and remove the virtual machines.\nWhat should you recommend?\nA. Azure Reserved Virtual Machines (VM) Instances\nB. Azure virtual machine scale sets\nC. Azure DevTest Labs\nD. Microsoft Managed Desktop",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #204 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "Y"
+  },
+  {
+    "raw_question": "Question #205 Topic 1\nA support engineer plans to perform several Azure management tasks by using the Azure CLI.\nYou install the CLI on a computer.\nYou need to tell the support engineer which tools to use to run the CLI.\nWhich two tools should you instruct the support engineer to use? Each correct answer presents a complete solution.\nNOTE: Each correct selection is worth one point.\nA. Command Prompt\nB. Azure Resource Explorer\nC. Windows PowerShell\nD. Windows Defender Firewall\nE. Network and Sharing Center",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #206 Topic 1\nNote: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution\nthat might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct\nsolution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review\nscreen.\nYou have an Azure environment. You need to create a new Azure virtual machine from a tablet that runs the Android operating system.\nSolution: You use PowerShell in Azure Cloud Shell.\nDoes this meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #207 Topic 1\nNote: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution\nthat might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct\nsolution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review\nscreen.\nYou have an Azure environment. You need to create a new Azure virtual machine from a tablet that runs the Android operating system.\nSolution: You use the PowerApps portal.\nDoes this meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #208 Topic 1\nNote: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution\nthat might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct\nsolution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review\nscreen.\nYou have an Azure environment. You need to create a new Azure virtual machine from a tablet that runs the Android operating system.\nSolution: You use the Azure portal.\nDoes this meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #209 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:",
+    "correct_answer": "M"
+  },
+  {
+    "raw_question": "Question #210 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #211 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #212 Topic 1\nHOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #213 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #214 Topic 1\nWhich Azure service provides a set of version control tools to manage code?\nA. Azure Repos\nB. Azure DevTest Labs\nC. Azure Storage\nD. Azure Cosmos DB",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #215 Topic 1\nHOTSPOT -\nYou need to manage Azure by using Azure Cloud Shell.\nWhich Azure portal icon should you select? To answer, select the appropriate icon in the answer area.\nHot Area:",
+    "correct_answer": "Y"
+  },
+  {
+    "raw_question": "Question #216 Topic 1\nYou have a virtual machine named VM1 that runs Windows Server 2016. VM1 is in the East US Azure region.\nWhich Azure service should you use from the Azure portal to view service failure noti\u0000cations that can affect the availability of VM1?\nA. Azure Service Fabric\nB. Azure Monitor\nC. Azure virtual machines\nD. Azure Advisor",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #217 Topic 1\nNote: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution\nthat might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct\nsolution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review\nscreen.\nYour Azure environment contains multiple Azure virtual machines.\nYou need to ensure that a virtual machine named VM1 is accessible from the Internet over HTTP.\nSolution: You modify an Azure Tra\u0000c Manager pro\u0000le.\nDoes this meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #218 Topic 1\nYour company plans to deploy several web servers and several database servers to Azure.\nYou need to recommend an Azure solution to limit the types of connections from the web servers to the database servers.\nWhat should you include in the recommendation?\nA. network security groups (NSGs)\nB. Azure Service Bus\nC. a local network gateway\nD. a route \u0000lter",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #219 Topic 1\nHOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:",
+    "correct_answer": "Y"
+  },
+  {
+    "raw_question": "Question #220 Topic 1\nWhich service provides network tra\u0000c \u0000ltering across multiple Azure subscriptions and virtual networks?\nA. Azure Firewall\nB. an application security group\nC. Azure DDoS protection\nD. a network security group (NSG)",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #221 Topic 1\nWhich Azure service should you use to store certi\u0000cates?\nA. Azure Security Center\nB. an Azure Storage account\nC. Azure Key Vault\nD. Azure Information Protection",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #222 Topic 1\nWhich Azure service can you use as a security information and event management (SIEM) solution?\nA. Azure Analysis Services\nB. Azure Sentinel\nC. Azure Information Protection\nD. Azure Cognitive Services",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #223 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "R"
+  },
+  {
+    "raw_question": "Question #224 Topic 1\nDRAG DROP -\nMatch the Azure Services service to the correct descriptions.\nInstructions: To answer, drag the appropriate service from the column on the left to its description on the right. Each service may be used\nonce, more than once, or not at all.\nNOTE: Each correct match is worth one point.\nSelect and Place:",
+    "correct_answer": "I"
+  },
+  {
+    "raw_question": "Question #225 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #226 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #227 Topic 1\nDRAG DROP -\nYou need to complete the defense-in-depth strategy used in a datacenter.\nWhat should you do? To answer, drag the appropriate layers to the correct positions in the model. Each layer may be used once, more than\nonce, or not at all.\nYou may need to drag the split bar between panes or scroll to view content.\nNOTE: Each correct selection is worth one point.\nSelect and Place:",
+    "correct_answer": "D"
+  },
+  {
+    "raw_question": "Question #228 Topic 1\nYou have an Azure virtual machine named VM1.\nYou plan to encrypt VM1 by using Azure Disk Encryption.\nWhich Azure resource must you create \u0000rst?\nA. an Azure Storage account\nB. an Azure Key Vault\nC. an Azure Information Protection policy\nD. an Encryption key",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #229 Topic 1\nWhich resources can be used as a source for a Network security group inbound security rule?\nA. Service Tags only\nB. IP Addresses, Service tags and Application security groups\nC. Application security groups only\nD. IP Addresses only",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #230 Topic 1\nHOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:",
+    "correct_answer": "R"
+  },
+  {
+    "raw_question": "Question #231 Topic 1\nHOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:",
+    "correct_answer": "R"
+  },
+  {
+    "raw_question": "Question #232 Topic 1\nHOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:",
+    "correct_answer": "R"
+  },
+  {
+    "raw_question": "Question #233 Topic 1\nYou have an Azure Sentinel workspace.\nYou need to automate responses to threats detected by Azure Sentinel.\nWhat should you use?\nA. adaptive network hardening in Azure Security Center\nB. Azure Service Health\nC. Azure Monitor workbooks\nD. adaptive application controls in Azure Security Center",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #234 Topic 1\nDRAG DROP -\nMatch the Azure services bene\u0000ts to the correct descriptions.\nInstructions: To answer, drag the appropriate bene\u0000t from the column on the left to its description on the right. Each bene\u0000t may be used\nonce, more than once, or not at all.\nNOTE: Each correct match is worth one point.\nSelect and Place:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #235 Topic 1\nWhich Azure service can you use as a security information and event management (SIEM) solution?\nA. Azure Analysis Services\nB. Microsoft Sentinel\nC. Azure Information Protection\nD. Azure Cognitive Services",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #236 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #237 Topic 1\nYou have an Azure subscription.\nYou need to review your secure score.\nWhat should you use?\nA. Azure Monitor\nB. Azure Advisor\nC. Help + support\nD. Microsoft Defender for Cloud",
+    "correct_answer": "D"
+  },
+  {
+    "raw_question": "Question #238 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #239 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #240 Topic 1\nYou need to collect and automatically analyze security events from Azure Active Directory (Azure AD).\nWhat should you use?\nA. Microsoft Sentinel\nB. Azure Synapse Analytics\nC. Azure AD Connect\nD. Azure Key Vault",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #241 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #242 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #243 Topic 1\nDRAG DROP -\nMatch the term to the appropriate description.\nTo answer, drag the appropriate term from the column on the left to its description on the right. Each term may be used once, more than once,\nor not at all.\nNOTE: Each correct match is worth one point.\nSelect and Place:",
+    "correct_answer": null
+  },
+  {
+    "raw_question": "Question #244 Topic 1\nYour company plans to automate the deployment of servers to Azure.\nYour manager is concerned that you may expose administrative credentials during the deployment.\nYou need to recommend an Azure solution that encrypts the administrative credentials during the deployment.\nWhat should you include in the recommendation?\nA. Azure Key Vault\nB. Azure Information Protection\nC. Microsoft Defender for Cloud\nD. Azure Multi-Factor Authentication (MFA)",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #245 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #246 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #247 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #248 Topic 1\nYou need to con\u0000gure an Azure solution that meets the following requirements:\n Secures websites from attacks\n Generates reports that contain details of attempted attacks\nWhat should you include in the solution?\nA. Azure Firewall\nB. a network security group (NSG)\nC. Azure Information Protection\nD. DDoS protection",
+    "correct_answer": "D"
+  },
+  {
+    "raw_question": "Question #249 Topic 1\nHOTSPOT -\nYou plan to implement several security services for an Azure environment. You need to identify which Azure services must be used to meet\nthe following security requirements:\n Monitor threats by using sensors\n Enforce Azure Multi-Factor Authentication (MFA) based on a condition\nWhich Azure service should you identify for each requirement? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #250 Topic 1\nYour Azure environment contains multiple Azure virtual machines.\nYou need to ensure that a virtual machine named VM1 is accessible from the Internet over HTTP.\nWhat are two possible solutions? Each correct answer presents a complete solution.\nNOTE: Each correct selection is worth one point.\nA. Modify an Azure Tra\u0000c Manager pro\u0000le\nB. Modify a network security group (NSG)\nC. Modify a DDoS protection plan\nD. Modify an Azure \u0000rewall",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #251 Topic 1\nHOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:",
+    "correct_answer": "T"
+  },
+  {
+    "raw_question": "Question #252 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "R"
+  },
+  {
+    "raw_question": "Question #253 Topic 1\nYou have an Azure environment that contains 10 virtual networks and 100 virtual machines.\nYou need to limit the amount of inbound tra\u0000c to all the Azure virtual networks.\nWhat should you create?\nA. one application security group (ASG)\nB. 10 virtual network gateways\nC. 10 Azure ExpressRoute circuits\nD. one Azure \u0000rewall",
+    "correct_answer": "D"
+  },
+  {
+    "raw_question": "Question #254 Topic 1\nThis question requires that you evaluate the underlined text to determine if it is correct.\nAzure Key Vault is used to store secrets for Azure Active Directory (Azure AD) user accounts.\nInstructions: Review the underlined text. If it makes the statement correct, select `No change is needed`. If the statement is incorrect, select\nthe answer choice that makes the statement correct.\nA. No change is needed\nB. Azure Active Directory (Azure AD) administrative accounts\nC. Personally Identi\u0000able Information (PII)\nD. server applications",
+    "correct_answer": "D"
+  },
+  {
+    "raw_question": "Question #255 Topic 1\nYour company plans to automate the deployment of servers to Azure.\nYour manager is concerned that you may expose administrative credentials during the deployment.\nYou need to recommend an Azure solution that encrypts the administrative credentials during the deployment.\nWhat should you include in the recommendation?\nA. Azure Key Vault\nB. Azure Information Protection\nC. Azure Security Center\nD. Azure Multi-Factor Authentication (MFA)",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #256 Topic 1\nYou plan to deploy several Azure virtual machines.\nYou need to control the ports that devices on the Internet can use to access the virtual machines.\nWhat should you use?\nA. a network security group (NSG)\nB. an Azure Active Directory (Azure AD) role\nC. an Azure Active Directory group\nD. an Azure key vault",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #257 Topic 1\nHOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:",
+    "correct_answer": "W"
+  },
+  {
+    "raw_question": "Question #258 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "R"
+  },
+  {
+    "raw_question": "Question #259 Topic 1\nNote: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution\nthat might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct\nsolution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review\nscreen.\nYour Azure environment contains multiple Azure virtual machines.\nYou need to ensure that a virtual machine named VM1 is accessible from the Internet over HTTP.\nSolution: You modify a network security group (NSG).\nDoes this meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #260 Topic 1\nNote: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution\nthat might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct\nsolution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review\nscreen.\nYour Azure environment contains multiple Azure virtual machines.\nYou need to ensure that a virtual machine named VM1 is accessible from the Internet over HTTP.\nSolution: You modify a DDoS protection plan.\nDoes this meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #261 Topic 1\nYou need to collect and automatically analyze security events from Azure Active Directory (Azure AD).\nWhat should you use?\nA. Azure Sentinel\nB. Azure Synapse Analytics\nC. Azure AD Connect\nD. Azure Key Vault",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #262 Topic 1\nNote: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution\nthat might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct\nsolution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review\nscreen.\nYour Azure environment contains multiple Azure virtual machines.\nYou need to ensure that a virtual machine named VM1 is accessible from the Internet over HTTP.\nSolution: You modify an Azure \u0000rewall.\nDoes this meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #263 Topic 1\nThis question requires that you evaluate the underlined text to determine if it is correct.\nAzure Germany can be used by legal residents of Germany only.\nInstructions: Review the underlined text. If it makes the statement correct, select `No change is needed`. If the statement is incorrect, select\nthe answer choice that makes the statement correct.\nA. no change is needed\nB. only enterprises that are registered in Germany\nC. only enterprises that purchase their azure licenses from a partner based in Germany\nD. any user or enterprise that requires its data to reside in Germany",
+    "correct_answer": "D"
+  },
+  {
+    "raw_question": "Question #264 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #265 Topic 1\nHOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:",
+    "correct_answer": "T"
+  },
+  {
+    "raw_question": "Question #266 Topic 1\nWhat should you use to evaluate whether your company's Azure environment meets regulatory requirements?\nA. Azure Service Health\nB. Azure Knowledge Center\nC. Azure Security Center\nD. Azure Advisor",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #267 Topic 1\nHOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #268 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #269 Topic 1\nWhich two types of customers are eligible to use Azure Government to develop a cloud solution? Each correct answer presents a complete\nsolution.\nNOTE: Each correct selection is worth one point.\nA. a Canadian government contractor\nB. a European government contractor\nC. a United States government entity\nD. a United States government contractor\nE. a European government entity",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #270 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #271 Topic 1\nYou need to ensure that when Azure Active Directory (Azure AD) users connect to Azure AD from the Internet by using an anonymous IP\naddress, the users are prompted automatically to change their password.\nWhich Azure service should you use?\nA. Azure AD Connect Health\nB. Azure AD Privileged Identity Management\nC. Azure Advanced Threat Protection (ATP)\nD. Azure AD Identity Protection",
+    "correct_answer": "D"
+  },
+  {
+    "raw_question": "Question #272 Topic 1\nDRAG DROP -\nMatch the term to the correct de\u0000nition.\nInstructions: To answer, drag the appropriate term from the column on the left to its description on the right. Each term may be used once,\nmore than once, or not at all.\nNOTE: Each correct match is worth one point.\nSelect and Place:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #273 Topic 1\nTo what should an application connect to retrieve security tokens?\nA. an Azure Storage account\nB. Azure Active Directory (Azure AD)\nC. a certi\u0000cate store\nD. an Azure key vault",
+    "correct_answer": "D"
+  },
+  {
+    "raw_question": "Question #274 Topic 1\nYour network contains an Active Directory forest. The forest contains 5,000 user accounts.\nYour company plans to migrate all network resources to Azure and to decommission the on-premises data center.\nYou need to recommend a solution to minimize the impact on users after the planned migration.\nWhat should you recommend?\nA. Implement Azure Multi-Factor Authentication (MFA)\nB. Sync all the Active Directory user accounts to Azure Active Directory (Azure AD)\nC. Instruct all users to change their password\nD. Create a guest user account in Azure Active Directory (Azure AD) for each user",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #275 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #276 Topic 1\nHOTSPOT -\nYou create a resource group named RG1 in Azure Resource Manager.\nYou need to prevent the accidental deletion of the resources in RG1.\nWhich setting should you use? To answer, select the appropriate setting in the answer area.\nHot Area:",
+    "correct_answer": "Y"
+  },
+  {
+    "raw_question": "Question #277 Topic 1\nYou have a resource group named RG1.\nYou need to prevent the creation of virtual machines in RG1. The solution must ensure that other objects can be created in RG1.\nWhat should you use?\nA. a lock\nB. an Azure role\nC. a tag\nD. an Azure policy",
+    "correct_answer": "D"
+  },
+  {
+    "raw_question": "Question #278 Topic 1\nYou have an Azure subscription and 100 Windows 10 devices.\nYou need to ensure that only users whose devices have the latest security patches installed can access Azure Active Directory (Azure AD)-\nintegrated applications.\nWhat should you implement?\nA. a conditional access policy\nB. Azure Bastion\nC. Azure Firewall\nD. Azure Policy",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #279 Topic 1\nWhat can Azure Information Protection encrypt?\nA. network tra\u0000c\nB. documents and email messages\nC. an Azure Storage account\nD. an Azure SQL database",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #280 Topic 1\nWhat should you use to evaluate whether your company's Azure environment meets regulatory requirements?\nA. the Knowledge Center website\nB. the Advisor blade from the Azure portal\nC. Compliance Manager from the Service Trust Portal\nD. the Solutions blade from the Azure portal",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #281 Topic 1\nHOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:",
+    "correct_answer": null
+  },
+  {
+    "raw_question": "Question #282 Topic 1\nYou have an Azure subscription.\nWhere will you \u0000nd details on the personal data collected by Microsoft, how Microsoft uses the data, and what the data is used for?\nA. the Data Protection Addendum\nB. the Microsoft Online Services Terms\nC. the Microsoft Privacy Statement\nD. Azure Security Center",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #283 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "R"
+  },
+  {
+    "raw_question": "Question #284 Topic 1\nHOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:",
+    "correct_answer": "T"
+  },
+  {
+    "raw_question": "Question #285 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "R"
+  },
+  {
+    "raw_question": "Question #286 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #287 Topic 1\nDRAG DROP -\nMatch the resources to the appropriate descriptions.\nTo answer, drag the appropriate resource from the column on the left to its description on the right. Each resource may be used once, more\nthan once, or not at all.\nNOTE: Each correct match is worth one point.\nSelect and Place:",
+    "correct_answer": "R"
+  },
+  {
+    "raw_question": "Question #288 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:",
+    "correct_answer": "R"
+  },
+  {
+    "raw_question": "Question #289 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:",
+    "correct_answer": "R"
+  },
+  {
+    "raw_question": "Question #290 Topic 1\nWhat should you use to evaluate whether your company's Azure environment meets regulatory requirements?\nA. Azure Service Health\nB. Azure Knowledge Center\nC. Microsoft Defender for Cloud\nD. Azure Advisor",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #291 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:",
+    "correct_answer": "M"
+  },
+  {
+    "raw_question": "Question #292 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "R"
+  },
+  {
+    "raw_question": "Question #293 Topic 1\nYour company has an Azure subscription that contains resources in several regions.\nYou need to create the Azure resource that must be used to meet the policy requirement.\nWhat should you create?\nA. a read-only lock\nB. an Azure policy\nC. a management group\nD. a reservation",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #294 Topic 1\nThis question requires that you evaluate the underlined text to determine if it is correct.\nFrom Azure Cloud Shell, you can track your company's regulatory standards and regulations, such as ISO 27001.\nInstructions: Review the underlined text. If it makes the statement correct, select `No change is needed.` If the statement is incorrect, select\nthe answer choice that makes the statement correct.\nA. No change is needed.\nB. the Microsoft Cloud Partner Portal\nC. Compliance Manager\nD. the Trust Center",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #295 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #296 Topic 1\nHOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:",
+    "correct_answer": "T"
+  },
+  {
+    "raw_question": "Question #297 Topic 1\nHOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #298 Topic 1\nHOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:",
+    "correct_answer": "R"
+  },
+  {
+    "raw_question": "Question #299 Topic 1\nHOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:",
+    "correct_answer": "R"
+  },
+  {
+    "raw_question": "Question #300 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "R"
+  },
+  {
+    "raw_question": "Question #301 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "R"
+  },
+  {
+    "raw_question": "Question #302 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "R"
+  },
+  {
+    "raw_question": "Question #303 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "R"
+  },
+  {
+    "raw_question": "Question #304 Topic 1\nYour company plans to migrate all on-premises data to Azure.\nYou need to identify whether Azure complies with the company's regional requirements.\nWhat should you use?\nA. the Knowledge Center\nB. Azure Marketplace\nC. the MyApps portal\nD. the Trust Center",
+    "correct_answer": "D"
+  },
+  {
+    "raw_question": "Question #305 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #306 Topic 1\nHOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:",
+    "correct_answer": "Y"
+  },
+  {
+    "raw_question": "Question #307 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #308 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "S"
+  },
+  {
+    "raw_question": "Question #309 Topic 1\nWhat is guaranteed in an Azure Service Level Agreement (SLA) for virtual machines?\nA. uptime\nB. feature availability\nC. bandwidth\nD. performance",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #310 Topic 1\nHOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:",
+    "correct_answer": "P"
+  },
+  {
+    "raw_question": "Question #311 Topic 1\nNote: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution\nthat might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct\nsolution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review\nscreen.\nYour company plans to purchase an Azure subscription.\nThe company's support policy states that the Azure environment must provide an option to access support engineers by phone or email.\nYou need to recommend which support plan meets the support policy requirement.\nSolution: Recommend a Basic support plan.\nDoes this meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #312 Topic 1\nNote: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution\nthat might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct\nsolution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review\nscreen.\nYour company plans to purchase an Azure subscription.\nThe company's support policy states that the Azure environment must provide an option to access support engineers by phone or email.\nYou need to recommend which support plan meets the support policy requirement.\nSolution: Recommend a Standard support plan.\nDoes this meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #313 Topic 1\nNote: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution\nthat might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct\nsolution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review\nscreen.\nYour company plans to purchase an Azure subscription.\nThe company's support policy states that the Azure environment must provide an option to access support engineers by phone or email.\nYou need to recommend which support plan meets the support policy requirement.\nSolution: Recommend a Premier support plan.\nDoes this meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #314 Topic 1\nYour company plans to request an architectural review of an Azure environment from Microsoft.\nThe company currently has a Basic support plan.\nYou need to recommend a new support plan for the company. The solution must minimize costs.\nWhich support plan should you recommend?\nA. Premier\nB. Developer\nC. Professional Direct\nD. Standard",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #315 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #316 Topic 1\nWhat is required to use Azure Cost Management?\nA. a Dev/Test subscription\nB. Software Assurance\nC. an Enterprise Agreement (EA)\nD. a pay-as-you-go subscription",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #317 Topic 1\nHOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #318 Topic 1\nNote: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution\nthat might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct\nsolution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review\nscreen.\nYour company plans to purchase an Azure subscription.\nThe company's support policy states that the Azure environment must provide an option to access support engineers by phone or email.\nYou need to recommend which support plan meets the support policy requirement.\nSolution: Recommend a Professional Direct support plan.\nDoes this meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #319 Topic 1\nYour company has a Software Assurance agreement that includes Microsoft SQL Server licenses.\nYou plan to deploy SQL Server on Azure virtual machines.\nWhat should you do to minimize licensing costs for the deployment?\nA. Deallocate the virtual machines during off hours.\nB. Use Azure Hybrid Bene\u0000t.\nC. Con\u0000gure Azure Cost Management budgets.\nD. Use Azure reservations.",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #320 Topic 1\nYour company has 10 departments.\nThe company plans to implement an Azure environment.\nYou need to ensure that each department can use a different payment option for the Azure services it consumes.\nWhat should you create for each department?\nA. a reservation\nB. a subscription\nC. a resource group\nD. a container instance",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #321 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #322 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #323 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": null
+  },
+  {
+    "raw_question": "Question #324 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "I"
+  },
+  {
+    "raw_question": "Question #325 Topic 1\nHOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #326 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #327 Topic 1\nWhich statement accurately describes the Modern Lifecycle Policy for Azure services?\nA. Microsoft provides mainstream support for a service for \u0000ve years.\nB. Microsoft provides a minimum of 12 months' notice before ending support for a service.\nC. After a service is made generally available, Microsoft provides support for the service for a minimum of four years.\nD. When a service is retired, you can purchase extended support for the service for up to \u0000ve years.",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #328 Topic 1\nHOTSPOT -\nYou need to request that Microsoft increase a subscription quota limit for your company.\nWhich blade should you use from the Azure portal? To answer, select the appropriate blade in the answer area.\nHot Area:",
+    "correct_answer": "R"
+  },
+  {
+    "raw_question": "Question #329 Topic 1\nHOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #330 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "R"
+  },
+  {
+    "raw_question": "Question #331 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #332 Topic 1\nYour company has an Azure subscription that contains the following unused resources:\n 20 user accounts in Azure Active Directory (Azure AD)\n Five groups in Azure AD\n 10 public IP addresses\n 10 network interfaces\nYou need to reduce the Azure costs for the company.\nWhich unused resources should you remove?\nA. the network interfaces\nB. the public IP addresses\nC. the groups\nD. the user accounts",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #333 Topic 1\nHOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:",
+    "correct_answer": "W"
+  },
+  {
+    "raw_question": "Question #334 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #335 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #336 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #337 Topic 1\nWho can use the Azure Total Cost of Ownership (TCO) calculator?\nA. billing readers for an Azure subscription only\nB. owners for an Azure subscription only\nC. anyone\nD. all users who have an account in Azure Active Directory (Azure AD) that is linked to an Azure subscription only",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #338 Topic 1\nHOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:",
+    "correct_answer": "I"
+  },
+  {
+    "raw_question": "Question #339 Topic 1\nWhich task can you perform by using Azure Advisor?\nA. Integrate Active Directory and Azure Active Directory (Azure AD).\nB. Estimate the costs of an Azure solution.\nC. Con\u0000rm that Azure subscription security follows best practices.\nD. Evaluate which on-premises resources can be migrated to Azure.",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #340 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #341 Topic 1\nYou have an Azure application that uses the services shown in the following table.\nHow should you calculate the composite SLA for the application?\nA. 0.999 * 0.9999 = 0.9989001 = 99.89001%\nB. 0.999 / 0.9999 = 0.9991 = 99.91%\nC. Max(0.999, 0.9999) = 0.9999 = 99.99%\nD. Min(0.999, 0.9999) = 0.999 = 99.9%",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #342 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:",
+    "correct_answer": "R"
+  },
+  {
+    "raw_question": "Question #343 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:",
+    "correct_answer": "R"
+  },
+  {
+    "raw_question": "Question #344 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:",
+    "correct_answer": "P"
+  },
+  {
+    "raw_question": "Question #345 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #346 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #347 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #348 Topic 1\nYou have 1,000 virtual machines hosted on the Hyper-V hosts in a data center.\nYou plan to migrate all the virtual machines to an Azure pay-as-you-go subscription.\nYou need to identify which expenditure model to use for the planned Azure solution.\nWhich expenditure model should you identify?\nA. scalable\nB. operational\nC. elastic\nD. capital",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #349 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:",
+    "correct_answer": "H"
+  },
+  {
+    "raw_question": "Question #350 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #351 Topic 1\nWhich Service Level Agreement (SLA) is provided for Azure services in public preview?\nA. Each service de\u0000nes its own SLA\nB. The SLA will be 99%\nC. The SLA will be 1% less than the general availability (GA) SLA\nD. The SLA will be 99.95%",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #352 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:",
+    "correct_answer": "L"
+  },
+  {
+    "raw_question": "Question #353 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #354 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #355 Topic 1\nWhat is the longest term you can purchase for Azure Reserved VM instances?\nA. one year\nB. \u0000ve years\nC. four years\nD. three years",
+    "correct_answer": "D"
+  },
+  {
+    "raw_question": "Question #356 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "P"
+  },
+  {
+    "raw_question": "Question #357 Topic 1\nYour company has 10 o\u0000ces. You plan to generate several billing reports from the Azure portal. Each report will contain the Azure resource\nutilization of each o\u0000ce.\nWhich Azure Resource Manager feature should you use before you generate the reports?\nA. tags\nB. templates\nC. locks\nD. policies",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #358 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #359 Topic 1\nThis question requires that you evaluate the underlined text to determine if it is correct.\nIf Microsoft plans to end support for an Azure service that does NOT have a successor service, Microsoft will provide noti\u0000cation at least 12\nmonths before.\nInstructions: Review the underlined text. If it makes the statement correct, select `No change is needed`. If the statement is incorrect, select\nthe answer choice that makes the statement correct.\nA. No change is needed.\nB. 6 months\nC. 90 days\nD. 30 days",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #360 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #361 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #362 Topic 1\nNote: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution\nthat might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct\nsolution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review\nscreen.\nYour company has an Azure subscription that contains the following unused resources:\n 20 user accounts in Azure Active Directory (Azure AD)\n Five groups in Azure AD\n 10 public IP addresses\n 10 network interfaces\nYou need to reduce the Azure costs for the company.\nSolution: You remove the unused network interfaces.\nDoes this meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #363 Topic 1\nNote: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution\nthat might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct\nsolution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review\nscreen.\nYour company has an Azure subscription that contains the following unused resources:\n 20 user accounts in Azure Active Directory (Azure AD)\nFive groups in Azure AD -\n 10 public IP addresses\n 10 network interfaces\nYou need to reduce the Azure costs for the company.\nSolution: You remove the unused public IP addresses.\nDoes this meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #364 Topic 1\nNote: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution\nthat might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct\nsolution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review\nscreen.\nYour company has an Azure subscription that contains the following unused resources:\n 20 user accounts in Azure Active Directory (Azure AD)\n Five groups in Azure AD\n 10 public IP addresses\n 10 network interfaces\nYou need to reduce the Azure costs for the company.\nSolution: You remove the unused user accounts.\nDoes this meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #365 Topic 1\nHOTSPOT -\nHow should you calculate the monthly uptime percentage? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": null
+  },
+  {
+    "raw_question": "Question #366 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #367 Topic 1\nThis question requires that you evaluate the underlined text to determine if it is correct.\nA support plan solution that gives you best practice information, health status and noti\u0000cations, and 24/7 access to billing information at the\nlowest possible cost is a Standard support plan.\nInstructions: Review the underlined text. If it makes the statement correct, select `No change is needed`. If the statement is incorrect, select\nthe answer choice that makes the statement correct.\nA. No change is needed\nB. Developer\nC. Basic\nD. Premier",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #368 Topic 1\nIn which Azure support plans can you open a new support request?\nA. Premier and Professional Direct only\nB. Premier, Professional Direct, and Standard only\nC. Premier, Professional Direct, Standard, and Developer only\nD. Premier, Professional Direct, Standard, Developer, and Basic",
+    "correct_answer": "D"
+  },
+  {
+    "raw_question": "Question #369 Topic 1\nThis question requires that you evaluate the underlined text to determine if it is correct.\nYou can create an Azure support request from support.microsoft.com.\nInstructions: Review the underlined text. If it makes the statement correct, select `No change is needed.` If the statement is incorrect, select\nthe answer choice that makes the statement correct.\nA. No change is needed.\nB. the Azure portal\nC. the Knowledge Center\nD. the Security & Compliance admin center",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #370 Topic 1\nNote: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution\nthat might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct\nsolution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review\nscreen.\nYour company has an Azure subscription that contains the following unused resources:\n 20 user accounts in Azure Active Directory (Azure AD)\n Five groups in Azure AD\n 10 public IP addresses\n 10 network interfaces\nYou need to reduce the Azure costs for the company.\nSolution: You remove the unused groups.\nDoes this meet the goal?\nA. Yes\nB. No",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #371 Topic 1\nThis question requires that you evaluate the underlined text to determine if it is correct.\nThe Azure Standard support plan is the lowest cost option to receive 24x7 access to support engineers by phone.\nInstructions: Review the underlined text. If it makes the statement correct, select `No change is needed`. If the statement is incorrect, select\nthe answer choice that makes the statement correct.\nA. No change is needed\nB. Developer\nC. Basic\nD. Professional Direct",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #372 Topic 1\nHOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:",
+    "correct_answer": "P"
+  },
+  {
+    "raw_question": "Question #373 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:",
+    "correct_answer": "R"
+  },
+  {
+    "raw_question": "Question #374 Topic 1\nYou need to compare a company's cloud usage to industry standard best practices.\nWhat should you use?\nA. Azure Monitor\nB. Azure Service Health\nC. Application Insights in Azure Monitor\nD. Azure Advisor",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #375 Topic 1\nYou need to start Azure Cloud Shell.\nWhat should you use?\nA. the Azure portal\nB. Azure Command-Line Interface (CLI)\nC. Azure PowerShell\nD. an Azure Resource Manager (ARM) template",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #376 Topic 1\nHow many copies of data are maintained by an Azure Storage account that uses locally-redundant storage (LRS)?\nA. 3\nB. 4\nC. 6\nD. 9",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #377 Topic 1\nWhat enables a cloud service to adapt quickly to changing requirements?\nA. high availability\nB. predictability\nC. manageability\nD. agility",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #378 Topic 1\nWhat is an example of vertical scaling in a cloud environment?\nA. adding an additional CPU to an existing Azure virtual machine\nB. adding an additional Azure virtual machine\nC. adding an additional Azure Virtual Desktop session host\nD. adding an additional Azure App Service instance automatically",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #379 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "Y"
+  },
+  {
+    "raw_question": "Question #380 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "W"
+  },
+  {
+    "raw_question": "Question #381 Topic 1\nWhat additional resource is required by an Azure virtual machine?\nA. a virtual network\nB. a service endpoint\nC. Azure Firewall\nD. a public IP address",
+    "correct_answer": "D"
+  },
+  {
+    "raw_question": "Question #382 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #383 Topic 1\nHow many copies of data are maintained by an Azure Storage account that uses geo-redundant storage (GRS)?\nA. 3\nB. 4\nC. 6\nD. 9",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #384 Topic 1\nWhat is used to grant permission to Azure Virtual Desktop resources?\nA. tags\nB. role-based access control (RBAC) roles\nC. resource groups\nD. application security groups",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #385 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+    "correct_answer": "P"
+  },
+  {
+    "raw_question": "Question #386 Topic 1\nDRAG DROP\n-\nMatch the cloud computing bene\u0000ts to the appropriate requirements.\nTo answer, drag the appropriate bene\u0000t from the column on the left to its requirement on the right. Each bene\u0000t may be used once, more than\nonce, or not at all.\nNOTE: Each correct match is worth one point.",
+    "correct_answer": "W"
+  },
+  {
+    "raw_question": "Question #387 Topic 1\nDRAG DROP\n-\nMatch the Azure services to the appropriate descriptions.\nTo answer, drag the appropriate service from the column on the left to its description on the right. Each service may be used once, more than\nonce, or not at all.\nNOTE: Each correct match is worth one point.",
+    "correct_answer": "R"
+  },
+  {
+    "raw_question": "Question #388 Topic 1\nHOTSPOT\n-\nSelect the answer that correctly completes the sentence.",
+    "correct_answer": null
+  },
+  {
+    "raw_question": "Question #389 Topic 1\nWhich cloud service model minimizes the management responsibility of a customer?\nA. infrastructure as a service (IaaS)\nB. platform as a service (PaaS)\nC. software as a service (SaaS)",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #390 Topic 1\nDRAG DROP -\nYou need to identify a customers level of shared responsibility based on the cloud service model.\nIn which order should you list each model from most customer responsibility to least customer responsibility? To answer, move all models\nfrom the list of models to the answer area and arrange them in the correct order.",
+    "correct_answer": null
+  },
+  {
+    "raw_question": "Question #391 Topic 1\nHOTSPOT\n-\nSelect the answer that correctly completes the sentence.",
+    "correct_answer": "P"
+  },
+  {
+    "raw_question": "Question #392 Topic 1\nHOTSPOT\n-\nSelect the answer that correctly completes the sentence.",
+    "correct_answer": null
+  },
+  {
+    "raw_question": "Question #393 Topic 1\nHOTSPOT\n-\nSelect the answer that correctly completes the sentence.",
+    "correct_answer": null
+  },
+  {
+    "raw_question": "Question #394 Topic 1\nHOTSPOT\n-\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.",
+    "correct_answer": "S"
+  },
+  {
+    "raw_question": "Question #395 Topic 1\nDRAG DROP\n-\nMatch the Azure storage services to the appropriate descriptions.\nTo answer, drag the appropriate storage service from the column on the left to its description on the right. Each service may be used once,\nmore than once, or not at all.\nNOTE: Each correct match is worth one point.",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #396 Topic 1\nHOTSPOT\n-\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.",
+    "correct_answer": null
+  },
+  {
+    "raw_question": "Question #397 Topic 1\nHOTSPOT\n-\nSelect the answer that correctly completes the sentence.",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #398 Topic 1\nYou have an Azure web app.\nYou need to manage the settings of the web app from an iPhone.\nWhat are two Azure management tools that you can use? Each correct answer presents a complete solution.\nNOTE: Each correct selection is worth one point.\nA. Windows PowerShell\nB. Azure Cloud Shell\nC. the Azure portal\nD. Azure Storage Explorer",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #399 Topic 1\nHOTSPOT\n-\nYou need to create a new Azure \u0000le share.\nWhat should you use? To answer, select the service in the answer area.\nNOTE: Each correct selection is worth one point.",
+    "correct_answer": "W"
+  },
+  {
+    "raw_question": "Question #400 Topic 1\nHOTSPOT\n-\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.",
+    "correct_answer": "Y"
+  },
+  {
+    "raw_question": "Question #401 Topic 1\nWhat should you use to prevent tra\u0000c from an Azure virtual network from being routed to an Azure Storage account via the internet?\nA. a network security group (NSG)\nB. a public endpoint\nC. Azure VPN Gateway\nD. a service endpoint",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #402 Topic 1\nWhich service can replace a resource lock automatically if the lock is removed?\nA. Azure Information Protection (AIP)\nB. Azure Blueprints\nC. Azure Backup\nD. Azure Advisor",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #403 Topic 1\nHOTSPOT\n-\nYou need to create a new user for an Azure subscription.\nWhat should you use? To answer, select the service in the answer area.\nNOTE: Each correct match is worth one point.",
+    "correct_answer": "T"
+  },
+  {
+    "raw_question": "Question #404 Topic 1\nHOTSPOT\n-\nSelect the answer that correctly completes the sentence.",
+    "correct_answer": null
+  },
+  {
+    "raw_question": "Question #405 Topic 1\nYou plan to collect and analyze event details for \u0000ve Azure virtual machines.\nYou need to run queries to compare the event details collected from all the virtual machines.\nWhich two tools should you use? Each correct answer presents part of the solution.\nNOTE: Each correct selection is worth one point.\nA. Azure Service Health\nB. Azure Service Bus\nC. Azure Monitor\nD. Azure Advisor\nE. Log Analytics",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #406 Topic 1\nHOTSPOT\n-\nSelect the answer that correctly completes the sentence.",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #407 Topic 1\nWhat should you use to track the costs of Azure resources?\nA. Azure Quickstart templates\nB. tags\nC. budgets\nD. usage and quotas",
+    "correct_answer": "D"
+  },
+  {
+    "raw_question": "Question #408 Topic 1\nYou have an Azure subscription.\nYou plan to create a virtual machine.\nWhere will the virtual machine be placed in Azure?\nA. In a storage account\nB. In a resource group\nC. In an administrative unit\nD. In an application group",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #409 Topic 1\nHOTSPOT\n-\nSelect the answer that correctly completes the sentence.",
+    "correct_answer": null
+  },
+  {
+    "raw_question": "Question #410 Topic 1\nHOTSPOT -\nSelect the answer that correctly completes the sentence.",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #411 Topic 1\nYou plan to reduce ongoing Azure expenditures.\nYou need to identify which factors affect the costs of a resource.\nWhich three factors should you identify? Each correct answer presents a complete solution.\nNOTE: Each correct selection is worth one point.\nA. the volume of outbound data\nB. the volume of inbound data\nC. the service tier\nD. the Azure region\nE. the type of processed data",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #412 Topic 1\nYour company has an Azure subscription that contains several resources.\nYou need to identify which department is responsible for the cost of each resource.\nWhat should you use?\nA. budgets\nB. alerts\nC. tags",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #413 Topic 1\nHOTSPOT\n-\nSelect the answer that correctly completes the sentence.",
+    "correct_answer": null
+  },
+  {
+    "raw_question": "Question #414 Topic 1\nHOTSPOT\n-\nSelect the answer that correctly completes the sentence.",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #415 Topic 1\nHOTSPOT\n-\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.",
+    "correct_answer": "I"
+  },
+  {
+    "raw_question": "Question #416 Topic 1\nHOTSPOT\n-\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.",
+    "correct_answer": "Y"
+  },
+  {
+    "raw_question": "Question #417 Topic 1\nHOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.",
+    "correct_answer": "N"
+  },
+  {
+    "raw_question": "Question #418 Topic 1\nHOTSPOT\n-\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.",
+    "correct_answer": "Y"
+  },
+  {
+    "raw_question": "Question #419 Topic 1\nHOTSPOT\n-\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.",
+    "correct_answer": "Y"
+  },
+  {
+    "raw_question": "Question #420 Topic 1\nYou have on-premises servers that run Windows Server.\nWhat should you implement to manage the servers by using the Azure portal?\nA. Azure Kubernetes Service (AKS)\nB. Azure Arc\nC. Docker\nD. role-based access control (RBAC)",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #421 Topic 1\nHOTSPOT\n-\nSelect the answer that correctly completes the sentence.",
+    "correct_answer": "I"
+  },
+  {
+    "raw_question": "Question #422 Topic 1\nHOTSPOT\n-\nSelect the answer that correctly completes the sentence.",
+    "correct_answer": "O"
+  },
+  {
+    "raw_question": "Question #423 Topic 1\nYou have a web app that runs in Azure.\nYou need to identify the amount of time it takes for web pages to load in a user's browser.\nWhat should you use?\nA. Azure Monitor alerts\nB. Application Insights in Azure Monitor\nC. Log Analytics\nD. Azure Network Watcher",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #424 Topic 1\nHOTSPOT\n-\nSelect the answer that correctly completes the sentence.",
+    "correct_answer": null
+  },
+  {
+    "raw_question": "Question #425 Topic 1\nWhat should a desktop application use to interact with Azure and manage resources?\nA. APIs\nB. Azure Resource Manager (ARM) templates\nC. Azure Command-Line Interface (CLI)\nD. Azure Cloud Shell",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #426 Topic 1\nDRAG DROP\n-\nMatch the cloud computing bene\u0000ts to the appropriate requirements.\nTo answer, drag the appropriate bene\u0000t from the column on the left to its requirement on the right. Each bene\u0000t may be used once, more than\nonce, or not at all.\nNOTE: Each correct match is worth one point.",
+    "correct_answer": "T"
+  },
+  {
+    "raw_question": "Question #427 Topic 1\nDRAG DROP\n-\nMatch the security components to the appropriate defense in depth layers.\nTo answer, drag the appropriate security component from the column on the left to its defense in depth layer on the right Each security\ncomponent may be used once, more than once, or not at all.\nNOTE: Each correct match is worth one point.",
+    "correct_answer": "G"
+  },
+  {
+    "raw_question": "Question #428 Topic 1\nHOTSPOT\n-\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.",
+    "correct_answer": null
+  },
+  {
+    "raw_question": "Question #429 Topic 1\nWhich two features or services can be integrated with Azure Monitor? Each correct answer presents part of the solution.\nNOTE: Each correct answer is worth one point.\nA. Azure status\nB. Application Insights\nC. Azure Advisor\nD. Log Analytics\nE. Azure Service Health",
+    "correct_answer": "B"
+  },
+  {
+    "raw_question": "Question #430 Topic 1\nWhat provides a uni\u0000ed way to project and manage non-Azure resources in Azure Resource Manager (ARM)?\nA. Azure Migrate\nB. Azure AD Connect\nC. Azure Arc\nD. Azure Front Door",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #431 Topic 1\nHOTSPOT\n-\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.",
+    "correct_answer": "Y"
+  },
+  {
+    "raw_question": "Question #432 Topic 1\nHOTSPOT\n-\nSelect the answer that correctly completes the sentence.",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #433 Topic 1\nYour company has an Azure subscription and three business units.\nYou plan to deploy new resources for each business unit.\nYou need to ensure that the new resources are deployed by using a repeatable and reliable method that applies the same con\u0000gurations to\neach resource.\nWhat should you use?\nA. Azure Policy\nB. Azure Arc\nC. a resource group\nD. Azure Resource Manager (ARM) templates",
+    "correct_answer": "D"
+  },
+  {
+    "raw_question": "Question #434 Topic 1\nHOTSPOT\n-\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.",
+    "correct_answer": "Y"
+  },
+  {
+    "raw_question": "Question #435 Topic 1\nHOTSPOT\n-\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.",
+    "correct_answer": "T"
+  },
+  {
+    "raw_question": "Question #436 Topic 1\nHOTSPOT\n-\nSelect the answer that correctly completes the sentence.",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #437 Topic 1\nIn the software as a service (SaaS) cloud service, which responsibility is shared between Microsoft and the customer?\nA. identity and directory infrastructure management\nB. application management\nC. information and data management\nD. operating system updates",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #438 Topic 1\nWhere does Azure Monitor store event data?\nA. an Azure Blob Storage account\nB. Azure Storage Queue\nC. Azure SQL Database\nD. a Log Analytics workspace",
+    "correct_answer": "D"
+  },
+  {
+    "raw_question": "Question #439 Topic 1\nHOTSPOT\n-\nSelect the answer that correctly completes the sentence.",
+    "correct_answer": "M"
+  },
+  {
+    "raw_question": "Question #440 Topic 1\nHOTSPOT\n-\nSelect the answer that correctly completes the sentence.",
+    "correct_answer": "I"
+  },
+  {
+    "raw_question": "Question #441 Topic 1\nHOTSPOT\n-\nSelect the answer that correctly completes the sentence.",
+    "correct_answer": null
+  },
+  {
+    "raw_question": "Question #442 Topic 1\nHOTSPOT\n-\nSelect the answer that correctly completes the sentence.",
+    "correct_answer": "G"
+  },
+  {
+    "raw_question": "Question #443 Topic 1\nAn Azure administrator plans to run a PowerShell script that creates Azure resources.\nYou need to recommend which computer con\u0000guration to use to run the script.\nWhich three computers can run the script? Each correct answer presents a complete solution.\nNOTE: Each correct selection is worth one point.\nA. a computer that runs Windows 11 and has the Azure CLI tools installed\nB. a computer that runs Linux and has the Azure CLI tools installed\nC. a computer that runs macOS and has PowerShell Core 6.0 installed\nD. a computer that runs Chrome OS and uses Azure Cloud Shell\nE. a computer that runs Windows 10 and has the Azure PowerShell module installed",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #444 Topic 1\nHOTSPOT\n-\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.",
+    "correct_answer": null
+  },
+  {
+    "raw_question": "Question #445 Topic 1\nIn the infrastructure as a service (IaaS) cloud service model, which two components are the responsibility of the cloud service provider? Each\ncorrect answer presents a complete solution.\nNOTE: Each correct selection is worth one point.\nA. the con\u0000guration and maintenance of storage\nB. the installation and con\u0000guration of the operating system\nC. maintaining the hardware\nD. the network con\u0000guration\nE. physical security of the datacenter infrastructure",
+    "correct_answer": "C"
+  },
+  {
+    "raw_question": "Question #446 Topic 1\nHOTSPOT\n-\nSelect the answer that correctly completes the sentence.",
+    "correct_answer": "T"
+  },
+  {
+    "raw_question": "Question #447 Topic 1\nHOTSPOT\n-\nSelect the answer that correctly completes the sentence.",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #448 Topic 1\nHOTSPOT\n-\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.",
+    "correct_answer": null
+  },
+  {
+    "raw_question": "Question #449 Topic 1\nHOTSPOT\n-\nSelect the answer that correctly completes the sentence.",
+    "correct_answer": "A"
+  },
+  {
+    "raw_question": "Question #450 Topic 1\nYou have an Azure Storage account named storage1.\nYou need to ensure that containers can be created in, but not deleted from, storage1.\nWhat should you do?\nA. Create a ReadOnly lock for storage1.\nB. Create a delete lock for storage1.\nC. Enable container soft delete.\nD. Enable blob soft delete.",
+    "correct_answer": "B"
+  }
+]
