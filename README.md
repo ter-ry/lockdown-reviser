@@ -15,7 +15,7 @@ This project is a **local multiple choice question (MCQ) reviewer** styled after
 ```
 lockdown-reviser/
 ├── index.html                # Main quiz interface
-├── style.css                 # Basic styling
+├── style.css                 # Dark mode, lockdown-style styling
 ├── app.js                    # Core logic (load questions, validate answers, track progress)
 ├── AZ-900-MCQs-Only.json     # Cleaned question set (generated from extract + filter scripts)
 ├── extract.py                # Extracts raw text from PDF (AZ-900.pdf → raw.txt)
@@ -32,7 +32,7 @@ python extract.py
 python filter.py
 ```
 
-3. Open a local server (due to `fetch()` limitations):
+3. Start a local server (due to browser fetch restrictions):
 
 ```bash
 python -m http.server 8080
@@ -42,14 +42,19 @@ python -m http.server 8080
 
 > The MCQs will be displayed with feedback and answer tracking.
 
----
-
 ## 🔄 Changing the Question Bank
 
 If you're not studying for AZ-900, just replace:
 - Your PDF file in `extract.py`
 - The output name `AZ-900-MCQs-Only.json` (or rename it consistently)
 - Update the title in `index.html` to reflect your exam (e.g., “AWS Cloud Practitioner MCQ Review”)
+
+---
+
+## 🐞 Known Bugs / Limitations
+
+- ❌ Words containing `fi` (e.g. *configure*, *satisfies*) may be missing due to PDF font encoding issues
+- ❌ Questions with **multiple correct answers** (e.g. select 2 out of 4) are not currently supported
 
 ---
 
