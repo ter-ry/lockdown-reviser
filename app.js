@@ -33,49 +33,73 @@ function showQuestion() {
   qText.className = "question";
   quiz.appendChild(qText);
 
+  const correctAnswers = current.correct_answers || [current.correct_answer];
+  const isMultiAnswer = correctAnswers.length > 1;
+
   for (let key in current.options) {
     const wrapper = document.createElement("div");
     wrapper.className = "option";
 
     const label = document.createElement("label");
-    const checkbox = document.createElement("input");
-    checkbox.type = "checkbox";
-    checkbox.name = "option";
-    checkbox.value = key;
+    const input = document.createElement("input");
+    input.type = isMultiAnswer ? "checkbox" : "radio";
+    input.name = "option";
+    input.value = key;
 
-    label.appendChild(checkbox);
+    if (!isMultiAnswer) {
+      input.onclick = () => {
+        const isCorrect = key === correctAnswers[0];
+
+        feedback.innerHTML = `
+          ${isCorrect ? "✅ Correct!" : `❌ Incorrect. Correct answer: ${correctAnswers[0]}`}<br/><br/>
+          <strong>Explanation:</strong><br/>
+          ${current.explanation || "(No explanation provided)"}
+        `;
+        feedback.style.color = isCorrect ? "green" : "red";
+
+        if (!isCorrect && !wrongQuestions.find(q => q.question === current.question)) {
+          wrongQuestions.push(current);
+          localStorage.setItem("wrongQuestions", JSON.stringify(wrongQuestions));
+        }
+
+        document.querySelectorAll("input[name='option']").forEach(r => r.disabled = true);
+      };
+    }
+
+    label.appendChild(input);
     label.appendChild(document.createTextNode(` ${key}. ${current.options[key]}`));
     wrapper.appendChild(label);
     quiz.appendChild(wrapper);
   }
 
-  const submitBtn = document.createElement("button");
-  submitBtn.textContent = "Submit";
-  submitBtn.onclick = () => {
-    const selected = Array.from(document.querySelectorAll("input[name='option']:checked")).map(r => r.value);
-    const correct = current.correct_answers || [current.correct_answer]; // support both formats
+  // Only show Submit for multiple answer questions
+  if (isMultiAnswer) {
+    const submitBtn = document.createElement("button");
+    submitBtn.textContent = "Submit";
+    submitBtn.onclick = () => {
+      const selected = Array.from(document.querySelectorAll("input[name='option']:checked")).map(r => r.value);
+      const selectedSet = new Set(selected);
+      const correctSet = new Set(correctAnswers);
 
-    const selectedSet = new Set(selected);
-    const correctSet = new Set(correct);
-    const isCorrect = selectedSet.size === correctSet.size && [...selectedSet].every(x => correctSet.has(x));
+      const isCorrect = selectedSet.size === correctSet.size && [...selectedSet].every(x => correctSet.has(x));
 
-    feedback.innerHTML = `
-      ${isCorrect ? "✅ Correct!" : `❌ Incorrect. Correct answer(s): ${correct.join(", ")}`}<br/><br/>
-      <strong>Explanation:</strong><br/>
-      ${current.explanation || "(No explanation provided)"}
-    `;
-    feedback.style.color = isCorrect ? "green" : "red";
+      feedback.innerHTML = `
+        ${isCorrect ? "✅ Correct!" : `❌ Incorrect. Correct answer(s): ${correctAnswers.join(", ")}`}<br/><br/>
+        <strong>Explanation:</strong><br/>
+        ${current.explanation || "(No explanation provided)"}
+      `;
+      feedback.style.color = isCorrect ? "green" : "red";
 
-    if (!isCorrect && !wrongQuestions.find(q => q.question === current.question)) {
-      wrongQuestions.push(current);
-      localStorage.setItem("wrongQuestions", JSON.stringify(wrongQuestions));
-    }
+      if (!isCorrect && !wrongQuestions.find(q => q.question === current.question)) {
+        wrongQuestions.push(current);
+        localStorage.setItem("wrongQuestions", JSON.stringify(wrongQuestions));
+      }
 
-    document.querySelectorAll("input[name='option']").forEach(cb => cb.disabled = true);
-    submitBtn.disabled = true;
-  };
-
-  quiz.appendChild(submitBtn);
+      document.querySelectorAll("input[name='option']").forEach(cb => cb.disabled = true);
+      submitBtn.disabled = true;
+    };
+    quiz.appendChild(submitBtn);
+  }
 }
 
 document.getElementById("nextBtn").onclick = () => {
